@@ -1,0 +1,6 @@
+# Unified Auth dependencies
+# No external dependencies --- uses only Python standard library.
+# In production, add your identity provider SDK:
+#   auth0-python>=4.0
+#   python-jose>=3.3
+#   cryptography>=42.0

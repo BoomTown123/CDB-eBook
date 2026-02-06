@@ -1,0 +1,160 @@
+# AI Review Configuration
+#
+# Controls what the AI reviewer checks, how it reports findings,
+# and which files to include or exclude.
+#
+# Reference: Blueprint for an AI-First Company, Chapter 5
+# Pattern 8: Review Ruthlessly
+
+# ─────────────────────────────────────────────────────────────
+# Review Model
+# ─────────────────────────────────────────────────────────────
+model:
+  provider: anthropic
+  model: claude-sonnet-4-20250514
+  max_tokens: 4096
+  temperature: 0  # Deterministic output for consistent reviews
+
+# ─────────────────────────────────────────────────────────────
+# Severity Thresholds
+# ─────────────────────────────────────────────────────────────
+# Controls when the review blocks a PR vs just comments
+thresholds:
+  # PR is blocked (REQUEST_CHANGES) if any finding at this level or above
+  blocking_severity: critical
+
+  # Maximum number of inline comments to post (prevent review fatigue)
+  max_inline_comments: 15
+
+  # Maximum PR size before requesting a split (lines changed)
+  max_pr_size: 500
+
+# ─────────────────────────────────────────────────────────────
+# Finding Categories
+# ─────────────────────────────────────────────────────────────
+# Enable or disable specific review categories
+categories:
+  security:
+    enabled: true
+    severity_override: null  # null = use AI's assessment
+    checks:
+      - sql_injection
+      - xss
+      - command_injection
+      - hardcoded_secrets
+      - missing_auth_checks
+      - insecure_defaults
+      - path_traversal
+
+  correctness:
+    enabled: true
+    severity_override: null
+    checks:
+      - logic_errors
+      - off_by_one
+      - null_handling
+      - error_handling
+      - edge_cases
+      - type_mismatches
+
+  performance:
+    enabled: true
+    severity_override: null
+    checks:
+      - n_plus_one_queries
+      - unbounded_loops
+      - missing_timeouts
+      - missing_pagination
+      - unnecessary_allocations
+
+  conventions:
+    enabled: true
+    severity_override: warning  # Convention violations are never critical
+    checks:
+      - naming_consistency
+      - architecture_layer_violations
+      - missing_type_hints
+      - missing_error_handling_pattern
+
+# ─────────────────────────────────────────────────────────────
+# File Filters
+# ─────────────────────────────────────────────────────────────
+files:
+  # Files to always ignore (glob patterns)
+  ignore:
+    - "*.lock"
+    - "*.generated.*"
+    - "*.min.js"
+    - "*.min.css"
+    - "vendor/**"
+    - "node_modules/**"
+    - "*.pb.go"          # Protobuf generated files
+    - "*.swagger.json"   # Generated API specs
+    - "__pycache__/**"
+    - ".mypy_cache/**"
+    - "migrations/versions/*.py"  # Auto-generated migrations
+
+  # Files that get extra security scrutiny
+  security_critical:
+    - "src/**/auth/**"
+    - "src/**/middleware/**"
+    - "src/**/api/**"
+    - "*.env*"
+    - "docker-compose*.yml"
+    - "Dockerfile*"
+
+# ─────────────────────────────────────────────────────────────
+# Project Conventions
+# ─────────────────────────────────────────────────────────────
+# Project-specific rules the AI should enforce
+conventions:
+  language: python
+  framework: flask
+
+  rules:
+    - name: "Three-layer architecture"
+      description: "Routes must call services, services call repositories. Routes must not call repositories directly."
+      severity: warning
+
+    - name: "No raw SQL in handlers"
+      description: "SQL queries must go through the repository layer, never in route handlers or service functions."
+      severity: critical
+
+    - name: "Parameterized queries only"
+      description: "All database queries must use parameterized statements. String interpolation in SQL is a critical security issue."
+      severity: critical
+
+    - name: "Type hints required"
+      description: "All function parameters and return types must have type hints."
+      severity: warning
+
+    - name: "Result pattern for errors"
+      description: "Service functions use the Result pattern for expected failures, not exceptions."
+      severity: warning
+
+    - name: "API response shape"
+      description: "All API responses must use {data, error, meta} structure."
+      severity: warning
+
+# ─────────────────────────────────────────────────────────────
+# Review Output
+# ─────────────────────────────────────────────────────────────
+output:
+  # Include positive feedback (things done well)
+  include_positive_feedback: true
+
+  # Include the review footer noting this is automated
+  include_footer: true
+  footer_text: "Automated review by AI Code Review. Human review is still required for approval."
+
+  # Format for the summary comment
+  summary_format: |
+    ## AI Code Review
+
+    **Verdict:** {verdict}
+    **Findings:** {critical_count} Critical | {warning_count} Warning | {suggestion_count} Suggestion
+
+    {findings_detail}
+
+    ---
+    *{footer_text}*

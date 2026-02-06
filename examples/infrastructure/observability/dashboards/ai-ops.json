@@ -1,0 +1,195 @@
+{
+  "dashboard": {
+    "title": "AI Operations Dashboard",
+    "description": "Operational metrics for AI infrastructure. Tracks the four metric categories from Chapter 4: latency, tokens, cost, and quality.",
+    "refresh_interval": "30s",
+    "time_range": "24h"
+  },
+  "rows": [
+    {
+      "title": "Cost Overview",
+      "panels": [
+        {
+          "title": "Total AI Spend (24h)",
+          "type": "stat",
+          "metric": "ai.cost.total",
+          "aggregation": "sum",
+          "unit": "USD",
+          "thresholds": {
+            "warning": 50.0,
+            "critical": 100.0
+          }
+        },
+        {
+          "title": "Cost per Request (avg)",
+          "type": "stat",
+          "metric": "ai.cost.per_request",
+          "aggregation": "avg",
+          "unit": "USD",
+          "thresholds": {
+            "warning": 0.05,
+            "critical": 0.10
+          }
+        },
+        {
+          "title": "Cost by Model",
+          "type": "pie_chart",
+          "metric": "ai.cost.total",
+          "group_by": "model"
+        },
+        {
+          "title": "Cost by Feature",
+          "type": "pie_chart",
+          "metric": "ai.cost.total",
+          "group_by": "tag:feature"
+        }
+      ]
+    },
+    {
+      "title": "Latency",
+      "panels": [
+        {
+          "title": "P50 Latency by Model",
+          "type": "time_series",
+          "metric": "ai.latency.p50",
+          "group_by": "model",
+          "unit": "ms"
+        },
+        {
+          "title": "P95 Latency by Model",
+          "type": "time_series",
+          "metric": "ai.latency.p95",
+          "group_by": "model",
+          "unit": "ms",
+          "thresholds": {
+            "warning": 5000,
+            "critical": 10000
+          }
+        },
+        {
+          "title": "P99 Latency by Model",
+          "type": "time_series",
+          "metric": "ai.latency.p99",
+          "group_by": "model",
+          "unit": "ms"
+        },
+        {
+          "title": "Latency Distribution",
+          "type": "histogram",
+          "metric": "ai.latency.p50",
+          "group_by": "model",
+          "unit": "ms",
+          "buckets": [500, 1000, 2000, 3000, 5000, 10000]
+        }
+      ]
+    },
+    {
+      "title": "Token Usage",
+      "panels": [
+        {
+          "title": "Input Tokens by Model",
+          "type": "time_series",
+          "metric": "ai.tokens.input.total",
+          "group_by": "model",
+          "unit": "tokens"
+        },
+        {
+          "title": "Output Tokens by Model",
+          "type": "time_series",
+          "metric": "ai.tokens.output.total",
+          "group_by": "model",
+          "unit": "tokens"
+        },
+        {
+          "title": "Tokens per Request (avg)",
+          "type": "stat",
+          "metric": "ai.tokens.per_request",
+          "aggregation": "avg",
+          "unit": "tokens"
+        },
+        {
+          "title": "Input/Output Ratio",
+          "type": "gauge",
+          "description": "Ratio of input to output tokens. High ratios may indicate prompt inefficiency.",
+          "metrics": ["ai.tokens.input.total", "ai.tokens.output.total"],
+          "formula": "a / b"
+        }
+      ]
+    },
+    {
+      "title": "Quality",
+      "panels": [
+        {
+          "title": "Average Quality Score",
+          "type": "time_series",
+          "metric": "ai.quality.avg",
+          "group_by": "model",
+          "unit": "score (0-1)",
+          "thresholds": {
+            "warning_below": 0.7,
+            "critical_below": 0.5
+          }
+        },
+        {
+          "title": "Quality by Feature",
+          "type": "bar_chart",
+          "metric": "ai.quality.avg",
+          "group_by": "tag:feature"
+        }
+      ]
+    },
+    {
+      "title": "Operational Health",
+      "panels": [
+        {
+          "title": "Request Volume",
+          "type": "time_series",
+          "metric": "ai.requests.count",
+          "aggregation": "sum",
+          "interval": "5m"
+        },
+        {
+          "title": "Error Rate",
+          "type": "time_series",
+          "metric": "ai.errors.rate",
+          "unit": "percent",
+          "thresholds": {
+            "warning": 1.0,
+            "critical": 5.0
+          }
+        },
+        {
+          "title": "Provider Health",
+          "type": "status_map",
+          "metrics": ["ai.provider.openai.healthy", "ai.provider.anthropic.healthy"],
+          "labels": ["OpenAI", "Anthropic"]
+        },
+        {
+          "title": "Active Alerts",
+          "type": "alert_list",
+          "filter": "ai.*"
+        }
+      ]
+    }
+  ],
+  "annotations": {
+    "description": "Notable events overlaid on all time series panels.",
+    "sources": [
+      {
+        "name": "Deployments",
+        "query": "deployment.completed",
+        "color": "blue"
+      },
+      {
+        "name": "Model Changes",
+        "query": "config.model.changed",
+        "color": "purple"
+      },
+      {
+        "name": "Incidents",
+        "query": "alert.critical.fired",
+        "color": "red"
+      }
+    ]
+  }
+}

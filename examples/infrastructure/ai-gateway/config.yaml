@@ -1,0 +1,154 @@
+# AI Gateway Configuration
+#
+# Reference: Chapter 4 - Infrastructure for AI-First Operations
+#
+# This config defines providers, routing rules, rate limits, and cost
+# tracking settings for the AI gateway. In production you would load
+# secrets from a vault --- never commit API keys.
+
+gateway:
+  host: "0.0.0.0"
+  port: 8000
+
+# ---------------------------------------------------------------------------
+# Provider configuration
+# ---------------------------------------------------------------------------
+# The gateway routes requests to providers in priority order.
+# API keys come from environment variables --- never hard-code them here.
+#
+# OpenRouter is the primary provider: one API key gives you access to
+# dozens of models across OpenAI, Anthropic, Google, Meta, and more.
+# Direct OpenAI and Anthropic connections serve as fallbacks.
+providers:
+  - name: openrouter
+    enabled: true
+    priority: 1
+    env_key: OPENROUTER_API_KEY
+    models:
+      - google/gemini-2.5-flash
+      - google/gemini-2.5-pro
+      - anthropic/claude-sonnet-4
+      - anthropic/claude-haiku-3.5
+      - openai/gpt-4o
+      - openai/gpt-4o-mini
+      - meta-llama/llama-3.3-70b-instruct
+      - mistralai/mistral-large
+
+  - name: openai
+    enabled: true
+    priority: 2
+    env_key: OPENAI_API_KEY
+    models:
+      - gpt-4o
+      - gpt-4o-mini
+      - o3-mini
+
+  - name: anthropic
+    enabled: true
+    priority: 3
+    env_key: ANTHROPIC_API_KEY
+    models:
+      - claude-opus-4-5-20251101
+      - claude-sonnet-4-20250514
+      - claude-haiku-3-5-20241022
+
+# ---------------------------------------------------------------------------
+# Default routing
+# ---------------------------------------------------------------------------
+routing:
+  default_provider: openrouter
+  default_model: google/gemini-2.5-flash
+  fallback_enabled: true
+  max_retries: 2
+  retry_delay_seconds: 1.0
+
+# ---------------------------------------------------------------------------
+# Rate limiting
+# ---------------------------------------------------------------------------
+# Per-key limits. Tokens and requests are tracked independently.
+rate_limits:
+  default:
+    requests_per_minute: 60
+    tokens_per_minute: 100000
+  tiers:
+    free:
+      requests_per_minute: 10
+      tokens_per_minute: 10000
+    standard:
+      requests_per_minute: 60
+      tokens_per_minute: 100000
+    enterprise:
+      requests_per_minute: 300
+      tokens_per_minute: 500000
+
+# ---------------------------------------------------------------------------
+# Cost tracking
+# ---------------------------------------------------------------------------
+# Per-1K-token pricing used by the cost tracker middleware.
+# Update these when providers change pricing.
+#
+# OpenRouter models use their own pricing (often slightly above direct).
+# These are approximate --- check openrouter.ai/models for current rates.
+cost_per_1k_tokens:
+  # OpenRouter models (primary)
+  google/gemini-2.5-flash:
+    input: 0.00015
+    output: 0.0006
+  google/gemini-2.5-pro:
+    input: 0.00125
+    output: 0.01
+  anthropic/claude-sonnet-4:
+    input: 0.003
+    output: 0.015
+  anthropic/claude-haiku-3.5:
+    input: 0.0008
+    output: 0.004
+  openai/gpt-4o:
+    input: 0.0025
+    output: 0.01
+  openai/gpt-4o-mini:
+    input: 0.00015
+    output: 0.0006
+  meta-llama/llama-3.3-70b-instruct:
+    input: 0.0003
+    output: 0.0004
+  mistralai/mistral-large:
+    input: 0.002
+    output: 0.006
+
+  # Direct OpenAI models (fallback)
+  gpt-4o:
+    input: 0.0025
+    output: 0.01
+  gpt-4o-mini:
+    input: 0.00015
+    output: 0.0006
+  o3-mini:
+    input: 0.0011
+    output: 0.0044
+
+  # Direct Anthropic models (fallback)
+  claude-opus-4-5-20251101:
+    input: 0.015
+    output: 0.075
+  claude-sonnet-4-20250514:
+    input: 0.003
+    output: 0.015
+  claude-haiku-3-5-20241022:
+    input: 0.0008
+    output: 0.004
+
+# ---------------------------------------------------------------------------
+# Middleware
+# ---------------------------------------------------------------------------
+middleware:
+  auth:
+    enabled: true
+    header: "Authorization"
+  rate_limit:
+    enabled: true
+  cost_tracker:
+    enabled: true
+  logger:
+    enabled: true
+    level: INFO

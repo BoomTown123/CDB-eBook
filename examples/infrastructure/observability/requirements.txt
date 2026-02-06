@@ -1,0 +1,7 @@
+# Observability dependencies
+# No external dependencies for the example --- uses only Python standard library.
+# In production, add your observability stack:
+#   prometheus-client>=0.20
+#   opentelemetry-api>=1.20
+#   opentelemetry-sdk>=1.20
+#   datadog>=0.49

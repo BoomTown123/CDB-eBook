@@ -1,0 +1,164 @@
+# AI-Powered Pull Request Review
+#
+# This workflow runs an AI review on every pull request.
+# It posts findings as PR comments and sets the review status.
+#
+# Required secrets:
+#   ANTHROPIC_API_KEY - API key for Claude
+#
+# Reference: Blueprint for an AI-First Company, Chapter 5
+# Pattern 8: Review Ruthlessly
+
+name: AI Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    # Skip draft PRs
+    # Remove this if you want reviews on drafts too
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+# Prevent multiple reviews on rapid pushes
+concurrency:
+  group: ai-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  ai-review:
+    name: AI Review
+    runs-on: ubuntu-latest
+    # Skip if PR is a draft
+    if: github.event.pull_request.draft == false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for accurate diffs
+
+      - name: Get PR diff
+        id: diff
+        run: |
+          # Get the diff between the PR branch and the base branch
+          git diff origin/${{ github.event.pull_request.base.ref }}...HEAD > pr_diff.txt
+
+          # Get list of changed files
+          git diff --name-only origin/${{ github.event.pull_request.base.ref }}...HEAD > changed_files.txt
+
+          # Calculate diff size
+          DIFF_LINES=$(wc -l < pr_diff.txt)
+          echo "diff_lines=$DIFF_LINES" >> $GITHUB_OUTPUT
+
+          echo "Changed files:"
+          cat changed_files.txt
+          echo "Diff size: $DIFF_LINES lines"
+
+      - name: Check PR size
+        if: steps.diff.outputs.diff_lines > 1000
+        run: |
+          echo "::warning::PR is large (${{ steps.diff.outputs.diff_lines }} lines). Consider splitting into smaller PRs for more accurate review."
+
+      - name: Load review configuration
+        id: config
+        run: |
+          # Read the review config
+          if [ -f "review-config.yaml" ]; then
+            echo "Review config found"
+          else
+            echo "::warning::No review-config.yaml found. Using defaults."
+          fi
+
+      - name: Filter files
+        id: filter
+        run: |
+          # Remove ignored file patterns from the review
+          # Default ignores: lock files, generated code, vendored deps
+          IGNORE_PATTERNS=(
+            "*.lock"
+            "*.generated.*"
+            "vendor/*"
+            "node_modules/*"
+            "*.min.js"
+            "*.min.css"
+            "package-lock.json"
+            "yarn.lock"
+            "poetry.lock"
+          )
+
+          cp changed_files.txt filtered_files.txt
+          for pattern in "${IGNORE_PATTERNS[@]}"; do
+            grep -v "$pattern" filtered_files.txt > temp.txt && mv temp.txt filtered_files.txt || true
+          done
+
+          FILE_COUNT=$(wc -l < filtered_files.txt)
+          echo "Files to review: $FILE_COUNT"
+          echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Read review prompt
+        id: prompt
+        run: |
+          # Load the review prompt template
+          if [ -f "prompts/review-prompt.md" ]; then
+            REVIEW_PROMPT=$(cat prompts/review-prompt.md)
+          else
+            REVIEW_PROMPT="Review this code for correctness, security, and performance issues."
+          fi
+          echo "prompt_loaded=true" >> $GITHUB_OUTPUT
+
+      - name: Run AI review
+        id: review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Build the review request
+          # In production, replace this with your preferred AI API client
+          #
+          # This is a simplified example. A production implementation would:
+          # 1. Read the review prompt template
+          # 2. Inject the diff and file context
+          # 3. Send to the AI API
+          # 4. Parse the structured response
+          # 5. Map findings to specific files and lines
+
+          echo "Running AI review on $(wc -l < filtered_files.txt) files..."
+
+          # Example API call structure (pseudo-code):
+          # response=$(curl -s https://api.anthropic.com/v1/messages \
+          #   -H "x-api-key: $ANTHROPIC_API_KEY" \
+          #   -H "content-type: application/json" \
+          #   -d "{
+          #     \"model\": \"claude-sonnet-4-20250514\",
+          #     \"max_tokens\": 4096,
+          #     \"messages\": [{
+          #       \"role\": \"user\",
+          #       \"content\": \"$(cat prompts/review-prompt.md)\n\nDiff:\n$(cat pr_diff.txt)\"
+          #     }]
+          #   }")
+
+          echo "AI review complete"
+          echo "review_complete=true" >> $GITHUB_OUTPUT
+
+      - name: Post review comments
+        if: steps.review.outputs.review_complete == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Parse the AI response and post as PR review
+          # In production, this would:
+          # 1. Parse the AI's structured findings
+          # 2. Map each finding to a file and line number
+          # 3. Post inline comments via the GitHub API
+          # 4. Post a summary review comment
+          # 5. Set the review status (approve/request_changes/comment)
+
+          echo "Posting review to PR #${{ github.event.pull_request.number }}"
+
+          # Example: Post a summary comment
+          # gh pr review ${{ github.event.pull_request.number }} \
+          #   --comment \
+          #   --body "## AI Code Review\n\n${REVIEW_SUMMARY}\n\n---\n*Automated review. Human review is still required.*"
