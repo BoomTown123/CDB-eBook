@@ -22,6 +22,49 @@
 {% endblock %}
 
 {% block content %}
+  <!-- Sidebar toggle buttons -->
+  <button class="bp-sidebar-toggle bp-toggle-left" id="bp-toggle-left" title="Toggle navigation" aria-label="Toggle navigation">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+  </button>
+  <button class="bp-sidebar-toggle bp-toggle-right" id="bp-toggle-right" title="Toggle table of contents" aria-label="Toggle table of contents">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </button>
+
+  <script>
+    (function() {
+      var left = document.getElementById('bp-toggle-left');
+      var right = document.getElementById('bp-toggle-right');
+      var body = document.body;
+
+      function toggleLeft() {
+        body.classList.toggle('bp-left-collapsed');
+        localStorage.setItem('bp-left-collapsed', body.classList.contains('bp-left-collapsed') ? '1' : '0');
+      }
+      function toggleRight() {
+        body.classList.toggle('bp-right-collapsed');
+        localStorage.setItem('bp-right-collapsed', body.classList.contains('bp-right-collapsed') ? '1' : '0');
+      }
+
+      // Restore state
+      if (localStorage.getItem('bp-left-collapsed') === '1') body.classList.add('bp-left-collapsed');
+      if (localStorage.getItem('bp-right-collapsed') === '1') body.classList.add('bp-right-collapsed');
+
+      left.addEventListener('click', toggleLeft);
+      right.addEventListener('click', toggleRight);
+
+      // Keyboard: [ = toggle left, ] = toggle right
+      document.addEventListener('keydown', function(e) {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable) return;
+        if (e.key === '[') toggleLeft();
+        if (e.key === ']') toggleRight();
+      });
+    })();
+  </script>
+
   {{ super() }}
 
   {% if page and page.meta.get("comments", true) != false %}
@@ -81,7 +124,7 @@
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="top"
-    data-theme="transparent_dark"
+    data-theme="https://aiblueprint.sauravbhatia.com/stylesheets/giscus-dark.css"
     data-lang="en"
     data-loading="lazy"
     crossorigin="anonymous"
@@ -93,7 +136,8 @@
     (function() {
       function getGiscusTheme() {
         var scheme = document.body.getAttribute('data-md-color-scheme');
-        return scheme === 'default' ? 'light' : 'transparent_dark';
+        var base = window.location.origin + '/stylesheets/';
+        return scheme === 'default' ? base + 'giscus-light.css' : base + 'giscus-dark.css';
       }
 
       // Watch for palette changes

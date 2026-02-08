@@ -11,5 +11,8 @@ cp README.md docs/about.md
 lsof -ti :8000 | xargs kill -9 2>/dev/null || true
 sleep 0.5
 
-echo "Serving at http://127.0.0.1:8000/blueprint-ai-first-company/"
+echo "Building site..."
+mkdocs build --clean
+
+echo "Serving at http://127.0.0.1:8000/"
 exec mkdocs serve "$@"

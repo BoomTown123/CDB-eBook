@@ -1107,6 +1107,112 @@ body,
   padding-top: 1rem;
 }
 
+/* ------------------------------------------------------------
+   Sidebar Toggle (collapse / expand)
+   Keyboard: [ = toggle left, ] = toggle right
+   ------------------------------------------------------------ */
+
+/* Toggle pill — high-contrast, positioned at viewport edge */
+.bp-sidebar-toggle {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 14px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00e5ff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  opacity: 0.85;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+  transition: opacity 0.25s, width 0.2s;
+  padding: 0;
+}
+
+.bp-sidebar-toggle:hover {
+  opacity: 1;
+  width: 18px;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.9);
+}
+
+.bp-sidebar-toggle svg {
+  width: 10px;
+  height: 10px;
+  transition: transform 0.3s var(--bp-ease-out);
+}
+
+.bp-toggle-left {
+  left: 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.bp-toggle-right {
+  right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+/* Sidebar transitions */
+.md-sidebar--primary {
+  transition: transform 0.35s var(--bp-ease-out), opacity 0.35s var(--bp-ease-out);
+}
+
+.md-sidebar--secondary {
+  transition: transform 0.35s var(--bp-ease-out), opacity 0.35s var(--bp-ease-out);
+}
+
+/* Collapsed states */
+body.bp-left-collapsed .md-sidebar--primary {
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.bp-right-collapsed .md-sidebar--secondary {
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Flip arrow when collapsed */
+body.bp-left-collapsed .bp-toggle-left svg {
+  transform: rotate(180deg);
+}
+
+body.bp-right-collapsed .bp-toggle-right svg {
+  transform: rotate(180deg);
+}
+
+/* Expand content when sidebars hidden */
+@media screen and (min-width: 60em) {
+  body.bp-left-collapsed .md-sidebar--primary {
+    width: 0;
+    overflow: hidden;
+  }
+
+  body.bp-right-collapsed .md-sidebar--secondary {
+    width: 0;
+    overflow: hidden;
+  }
+}
+
+/* Hide toggles on mobile (sidebars already overlay) */
+@media screen and (max-width: 59.9375em) {
+  .bp-sidebar-toggle {
+    display: none;
+  }
+}
+
+/* Light mode */
+[data-md-color-scheme="default"] .bp-sidebar-toggle {
+  background: var(--bp-cyan);
+  color: #ffffff;
+}
+
+
 /* ============================================================
    Engagement Components: Share, CTA, Comments, Social Proof
    ============================================================ */
