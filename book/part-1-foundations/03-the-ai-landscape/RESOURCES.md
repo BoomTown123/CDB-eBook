@@ -4,8 +4,8 @@
 
 ## Frameworks from This Chapter
 
-- [Foundation Models Landscape](../../../frameworks/foundation-models.md) -- The 4-layer AI stack (Foundation Models, Providers, Aggregators, Applications) and model capability comparisons.
-- [6 Questions Before Choosing a Model](../../../frameworks/6-questions-before-choosing-a-model.md) -- The sequential decision framework: use case, latency tolerance, compliance, cost structure, explainability, and switching tolerance.
+- [Foundation Models Landscape](../../../frameworks/06-foundation-models.md) -- The 4-layer AI stack (Foundation Models, Providers, Aggregators, Applications) and model capability comparisons.
+- [6 Questions Before Choosing a Model](../../../frameworks/07-six-questions-before-choosing-a-model.md) -- The sequential decision framework: use case, latency tolerance, compliance, cost structure, explainability, and switching tolerance.
 
 ## Tools & Platforms
 

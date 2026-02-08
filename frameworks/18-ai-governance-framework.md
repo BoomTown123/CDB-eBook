@@ -109,11 +109,11 @@ Start by mapping your current AI systems to the four governance levels. Establis
 
 ## Related Frameworks
 
-- [Permission Model Framework](permission-model-framework.md) -- The operational permission levels that governance structures oversee
-- [7 AI Risks and Mitigations](7-ai-risks-and-mitigations.md) -- The specific risks that governance frameworks must address
-- [Human-AI Collaboration](human-ai-collaboration.md) -- How governance applies to human-AI teaming decisions
-- [10 Principles of AI-First](10-principles-of-ai-first.md) -- The strategic principles that governance should enable, not hinder
-- [Automation vs Augmentation](automation-vs-augmentation.md) -- Task-level decisions that governance thresholds inform
+- [Permission Model Framework](17-permission-model-framework.md) -- The operational permission levels that governance structures oversee
+- [7 AI Risks and Mitigations](19-seven-ai-risks-and-mitigations.md) -- The specific risks that governance frameworks must address
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- How governance applies to human-AI teaming decisions
+- [10 Principles of AI-First](20-ten-principles-of-ai-first.md) -- The strategic principles that governance should enable, not hinder
+- [Automation vs Augmentation](15-automation-vs-augmentation.md) -- Task-level decisions that governance thresholds inform
 
 ## Deep Dive
 

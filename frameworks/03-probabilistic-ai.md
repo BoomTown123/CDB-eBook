@@ -89,11 +89,11 @@ Audit every AI-powered feature in your product against the five implications: Is
 
 ## Related Frameworks
 
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- Probabilistic Thinking is Mental Model #2, and the Permission Spectrum is Mental Model #4
-- [7 Failure Modes of Agents](7-failure-modes-of-agents.md) -- What happens when probabilistic systems fail, especially Hallucinated Actions (Mode 1)
-- [AI Governance Framework](ai-governance-framework.md) -- The governance structures for managing AI uncertainty at organizational scale
-- [Human-AI Collaboration](human-ai-collaboration.md) -- How humans and AI work together when outputs are uncertain
-- [8 Patterns for AI Coding](8-patterns-for-ai-coding.md) -- Pattern 8 (Review Ruthlessly) addresses the practical reality of uncertain AI output
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- Probabilistic Thinking is Mental Model #2, and the Permission Spectrum is Mental Model #4
+- [7 Failure Modes of Agents](10-seven-failure-modes-of-agents.md) -- What happens when probabilistic systems fail, especially Hallucinated Actions (Mode 1)
+- [AI Governance Framework](18-ai-governance-framework.md) -- The governance structures for managing AI uncertainty at organizational scale
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- How humans and AI work together when outputs are uncertain
+- [8 Patterns for AI Coding](09-eight-patterns-for-ai-coding.md) -- Pattern 8 (Review Ruthlessly) addresses the practical reality of uncertain AI output
 
 ## Deep Dive
 

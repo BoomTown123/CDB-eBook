@@ -117,4 +117,4 @@ For a team producing 50 PRs per week, expect approximately $4-8 per week in API 
 - [Code Review Agent System Prompt](../../prompts/agent-system-prompts/code-review-agent.md) -- the full system prompt for a review agent
 - [Review Prompts](../../prompts/coding-prompts/review-prompts.md) -- manual review prompt templates
 - [Claude Code Setup](../claude-code-setup/) -- local review configuration
-- [8 Patterns for AI Coding](../../../frameworks/8-patterns-for-ai-coding.md) -- the framework this implements
+- [8 Patterns for AI Coding](../../../frameworks/09-eight-patterns-for-ai-coding.md) -- the framework this implements

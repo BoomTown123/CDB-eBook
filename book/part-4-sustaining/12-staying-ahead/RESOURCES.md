@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [10 Principles of AI-First](../../../frameworks/10-principles-of-ai-first.md) — Ten enduring principles that transcend specific technologies: build for agents, routing is strategy, give AI superpowers with guardrails, own your domain share your foundation, build to add not to replace, and more.
+- [10 Principles of AI-First](../../../frameworks/20-ten-principles-of-ai-first.md) — Ten enduring principles that transcend specific technologies: build for agents, routing is strategy, give AI superpowers with guardrails, own your domain share your foundation, build to add not to replace, and more.
 
 ## Tools & Platforms
 

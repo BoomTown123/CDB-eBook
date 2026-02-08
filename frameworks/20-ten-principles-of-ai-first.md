@@ -147,12 +147,12 @@ Use these ten principles as a strategic audit tool. When evaluating any AI initi
 
 ## Related Frameworks
 
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The mental models from which many of these principles derive
-- [AI-First vs AI-Enabled](ai-first-vs-ai-enabled.md) -- The foundational distinction that Principle 1 builds upon
-- [Build vs Buy Calculus](build-vs-buy-calculus.md) -- The decision framework behind Principles 2 and 6
-- [7 Failure Modes of Agents](7-failure-modes-of-agents.md) -- The failure patterns that Principles 3 and 5 address
-- [Human-AI Collaboration](human-ai-collaboration.md) -- The collaboration model behind Principle 4
-- [AI Governance Framework](ai-governance-framework.md) -- The governance structures that enable Principle 3
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The mental models from which many of these principles derive
+- [AI-First vs AI-Enabled](01-ai-first-vs-ai-enabled.md) -- The foundational distinction that Principle 1 builds upon
+- [Build vs Buy Calculus](04-build-vs-buy-calculus.md) -- The decision framework behind Principles 2 and 6
+- [7 Failure Modes of Agents](10-seven-failure-modes-of-agents.md) -- The failure patterns that Principles 3 and 5 address
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- The collaboration model behind Principle 4
+- [AI Governance Framework](18-ai-governance-framework.md) -- The governance structures that enable Principle 3
 
 ## Deep Dive
 

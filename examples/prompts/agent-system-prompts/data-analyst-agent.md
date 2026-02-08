@@ -193,4 +193,4 @@ This agent implements the **dead man's switch** pattern from [Agent Design Patte
 - **Anomaly gating:** Critical anomalies trigger immediate human notification rather than silent inclusion in a report.
 - **Data quality gates:** Analysis halts if data quality is below threshold, preventing garbage-in-garbage-out reports.
 
-The read-only constraint follows the [Permission Model Framework](../../../frameworks/permission-model-framework.md): the agent can read freely (low-risk, reversible) but cannot modify data (high-risk, potentially irreversible).
+The read-only constraint follows the [Permission Model Framework](../../../frameworks/17-permission-model-framework.md): the agent can read freely (low-risk, reversible) but cannot modify data (high-risk, potentially irreversible).

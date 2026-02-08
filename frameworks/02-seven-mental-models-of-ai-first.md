@@ -106,12 +106,12 @@ Use these seven models as a checklist when making product and architecture decis
 
 ## Related Frameworks
 
-- [AI-First vs AI-Enabled](ai-first-vs-ai-enabled.md) -- The foundational distinction these models build upon
-- [Build vs Buy Calculus](build-vs-buy-calculus.md) -- Deep dive into Mental Model #6
-- [Probabilistic AI](probabilistic-ai.md) -- Deep dive into Mental Model #2
-- [Human-AI Collaboration](human-ai-collaboration.md) -- Deep dive into Mental Model #7
-- [Data Flywheel](data-flywheel.md) -- The mechanism behind Mental Model #3
-- [10 Principles of AI-First](10-principles-of-ai-first.md) -- The enduring principles that extend these models
+- [AI-First vs AI-Enabled](01-ai-first-vs-ai-enabled.md) -- The foundational distinction these models build upon
+- [Build vs Buy Calculus](04-build-vs-buy-calculus.md) -- Deep dive into Mental Model #6
+- [Probabilistic AI](03-probabilistic-ai.md) -- Deep dive into Mental Model #2
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- Deep dive into Mental Model #7
+- [Data Flywheel](12-data-flywheel.md) -- The mechanism behind Mental Model #3
+- [10 Principles of AI-First](20-ten-principles-of-ai-first.md) -- The enduring principles that extend these models
 
 ## Deep Dive
 

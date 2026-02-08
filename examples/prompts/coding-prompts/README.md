@@ -38,7 +38,7 @@ Replace placeholders with your specific project details before using. The prompt
 
 ## Related Resources
 
-- [8 Patterns for AI Coding Framework](../../../frameworks/8-patterns-for-ai-coding.md)
+- [8 Patterns for AI Coding Framework](../../../frameworks/09-eight-patterns-for-ai-coding.md)
 - [Agent System Prompts](../agent-system-prompts/) -- for building AI agents
 - [Evaluation Prompts](../evaluation-prompts/) -- for assessing AI output quality
 - [Claude Code Setup](../../configs/claude-code-setup/) -- for configuring your development environment

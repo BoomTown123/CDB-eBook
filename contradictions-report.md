@@ -34,8 +34,8 @@
 
 ### 3. Air Canada damages: $650.88 vs $812.02 (book inconsistency) — RESOLVED
 
-- **Files:** `resources/case-studies.md`, `frameworks/7-ai-risks-and-mitigations.md`, `frameworks/7-failure-modes-of-agents.md`
-- **Resolution:** Standardized to $812.02 (total tribunal order including fare difference + interest + fees). Updated Ch6 `04-The-7-Failure-Modes-of-Agents.md`, `00-Chapter-Intro.md`, `99-Chapter-Summary.md`. Updated companion `7-failure-modes-of-agents.md`. Case-studies and 7-ai-risks already used $812.02. Updated exported book copies.
+- **Files:** `resources/case-studies.md`, `frameworks/19-seven-ai-risks-and-mitigations.md`, `frameworks/10-seven-failure-modes-of-agents.md`
+- **Resolution:** Standardized to $812.02 (total tribunal order including fare difference + interest + fees). Updated Ch6 `04-The-7-Failure-Modes-of-Agents.md`, `00-Chapter-Intro.md`, `99-Chapter-Summary.md`. Updated companion `10-seven-failure-modes-of-agents.md`. Case-studies and 7-ai-risks already used $812.02. Updated exported book copies.
 
 ### 4. 200x figure misattributed: cost vs latency — RESOLVED
 
@@ -58,7 +58,7 @@
 
 ### 7. "Risk 8" reference (nonexistent) — RESOLVED
 
-- **File:** `frameworks/7-ai-risks-and-mitigations.md`
+- **File:** `frameworks/19-seven-ai-risks-and-mitigations.md`
 - **Resolution:** Changed "Risk 1, 2, and 8" to "Risk 1, Risk 2, and GTM Mistake 8."
 
 ### 8. pgvector threshold mismatch — RESOLVED
@@ -73,12 +73,12 @@
 
 ### 10. Unverified stats in 90-day fluency program — RESOLVED
 
-- **File:** `frameworks/90-day-ai-fluency-program.md`
+- **File:** `frameworks/11-ninety-day-ai-fluency-program.md`
 - **Resolution:** Removed unsourced "25% better knowledge retention." Changed "500%+ returns" to "300%+ ROI over three years." Changed break-even "3.4x ROI in the first year" to "300%+ ROI over three years."
 
 ### 11. "Five Implications of Probabilistic Outputs" not in book — RESOLVED
 
-- **File:** `frameworks/probabilistic-ai.md`
+- **File:** `frameworks/03-probabilistic-ai.md`
 - **Resolution:** Added label: "**Companion framework** --- extends the book's discussion of probabilistic AI with a practical checklist."
 
 ### 12. METR study prediction: 20% vs 24% — RESOLVED
@@ -103,7 +103,7 @@
 
 ### 16. Build-vs-Buy example ordering — RESOLVED
 
-- **File:** `frameworks/build-vs-buy-calculus.md`
+- **File:** `frameworks/04-build-vs-buy-calculus.md`
 - **Resolution:** Reordered from Buy/Boost/Build to Buy/Build/Boost to match book.
 
 ---
@@ -147,7 +147,7 @@
 
 ### 24. 7-mental-models drops "different" — RESOLVED
 
-- **File:** `frameworks/7-mental-models-of-ai-first.md`
+- **File:** `frameworks/02-seven-mental-models-of-ai-first.md`
 - **Resolution:** Changed "a way of building" to "a *different* way of building" to match book.
 
 ### 25. Personal voice markers stripped (systemic) — RESOLVED (no change)

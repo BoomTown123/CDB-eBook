@@ -97,5 +97,5 @@ This example uses in-memory stores for rate limits, cost tracking, and API keys.
 
 - [Unified Auth Example](../unified-auth/) --- Authentication for humans and agents
 - [Observability Example](../observability/) --- AI metrics, dashboards, and alerts
-- [Permission Model Framework](../../../frameworks/permission-model-framework.md)
-- [5 Infrastructure Mistakes](../../../frameworks/5-infrastructure-mistakes.md)
+- [Permission Model Framework](../../../frameworks/17-permission-model-framework.md)
+- [5 Infrastructure Mistakes](../../../frameworks/08-five-infrastructure-mistakes.md)

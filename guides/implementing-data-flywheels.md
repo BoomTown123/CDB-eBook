@@ -139,7 +139,7 @@ As you build, watch for these patterns -- each one stalls the flywheel:
 
 ## Related Resources
 
-- [6 Data Strategy Mistakes](../frameworks/6-data-strategy-mistakes.md) -- The six mistakes that stall flywheels, with detailed avoidance strategies
-- [Data Flywheel Framework](../frameworks/data-flywheel.md) -- The conceptual framework behind this guide
-- [Data Moats Framework](../frameworks/data-moats.md) -- How a working flywheel creates defensibility
+- [6 Data Strategy Mistakes](../frameworks/14-six-data-strategy-mistakes.md) -- The six mistakes that stall flywheels, with detailed avoidance strategies
+- [Data Flywheel Framework](../frameworks/12-data-flywheel.md) -- The conceptual framework behind this guide
+- [Data Moats Framework](../frameworks/13-data-moats.md) -- How a working flywheel creates defensibility
 - [Data Strategy Checklist](../checklists/data-strategy-checklist.md) -- Pre-deployment checklist for your data infrastructure

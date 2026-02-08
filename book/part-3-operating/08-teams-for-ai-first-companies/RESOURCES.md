@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [90-Day AI Fluency Program](../../../frameworks/90-day-ai-fluency-program.md) — Structured three-phase program (Foundation, Integration, Mastery) for building organization-wide AI fluency with measurement frameworks and break-even timelines.
+- [90-Day AI Fluency Program](../../../frameworks/11-ninety-day-ai-fluency-program.md) — Structured three-phase program (Foundation, Integration, Mastery) for building organization-wide AI fluency with measurement frameworks and break-even timelines.
 
 ## Tools & Platforms
 

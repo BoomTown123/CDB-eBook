@@ -2,7 +2,7 @@
 
 > Prompts for evaluating the quality of AI-generated outputs across multiple dimensions. Use these for ongoing quality monitoring, evaluating new prompts, or auditing agent performance.
 >
-> Reference: [8 Patterns for AI Coding](../../../frameworks/8-patterns-for-ai-coding.md) | [7 Failure Modes of Agents](../../../frameworks/7-failure-modes-of-agents.md)
+> Reference: [8 Patterns for AI Coding](../../../frameworks/09-eight-patterns-for-ai-coding.md) | [7 Failure Modes of Agents](../../../frameworks/10-seven-failure-modes-of-agents.md)
 
 ---
 

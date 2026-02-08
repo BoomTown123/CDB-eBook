@@ -110,10 +110,10 @@ Before investing in data infrastructure, audit your current position against all
 
 ## Related Frameworks
 
-- [Data Flywheel](data-flywheel.md) --- the flywheel these mistakes stall
-- [Data Moats](data-moats.md) --- defensibility that depends on a working flywheel
-- [5 Infrastructure Mistakes](5-infrastructure-mistakes.md) --- related failure patterns in the infrastructure layer
-- [6 Questions Before Choosing a Model](6-questions-before-choosing-a-model.md) --- upstream decisions that affect data strategy
+- [Data Flywheel](12-data-flywheel.md) --- the flywheel these mistakes stall
+- [Data Moats](13-data-moats.md) --- defensibility that depends on a working flywheel
+- [5 Infrastructure Mistakes](08-five-infrastructure-mistakes.md) --- related failure patterns in the infrastructure layer
+- [6 Questions Before Choosing a Model](07-six-questions-before-choosing-a-model.md) --- upstream decisions that affect data strategy
 
 ## Deep Dive
 

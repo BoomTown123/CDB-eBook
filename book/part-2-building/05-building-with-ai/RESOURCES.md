@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [8 Patterns for Effective AI Coding](../../../frameworks/8-patterns-for-ai-coding.md) -- Context first, concrete examples, iterative refinement, architecture ownership, test-driven prompting, error escalation, checkpoint commits, and ruthless review.
+- [8 Patterns for Effective AI Coding](../../../frameworks/09-eight-patterns-for-ai-coding.md) -- Context first, concrete examples, iterative refinement, architecture ownership, test-driven prompting, error escalation, checkpoint commits, and ruthless review.
 
 ## Tools & Platforms
 

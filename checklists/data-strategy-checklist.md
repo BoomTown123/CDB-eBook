@@ -74,8 +74,8 @@ Use this checklist when designing a data strategy for an AI-first product, evalu
 ---
 
 **Source frameworks:**
-- [The 6 Data Strategy Mistakes That Stall Flywheels](../frameworks/6-data-strategy-mistakes.md)
-- [Building Data Flywheels](../frameworks/data-flywheel.md)
-- [Data Moats: What's Defensible vs. Replicable](../frameworks/data-moats.md)
+- [The 6 Data Strategy Mistakes That Stall Flywheels](../frameworks/14-six-data-strategy-mistakes.md)
+- [Building Data Flywheels](../frameworks/12-data-flywheel.md)
+- [Data Moats: What's Defensible vs. Replicable](../frameworks/13-data-moats.md)
 
 **Full chapter:** [Chapter 9: Data Strategy](../book/part-3-operating/09-data-strategy/README.md)

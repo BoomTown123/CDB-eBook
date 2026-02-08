@@ -86,6 +86,6 @@ Use this checklist when evaluating your current AI infrastructure before scaling
 
 ---
 
-**Source framework:** [The 5 Infrastructure Mistakes That Kill AI Initiatives](../frameworks/5-infrastructure-mistakes.md)
+**Source framework:** [The 5 Infrastructure Mistakes That Kill AI Initiatives](../frameworks/08-five-infrastructure-mistakes.md)
 
 **Full chapter:** [Chapter 4: Infrastructure for AI-First Operations](../book/part-2-building/04-infrastructure-for-ai-first-operations/README.md)

@@ -4,8 +4,8 @@
 
 ## Frameworks from This Chapter
 
-- [Automation vs Augmentation](../../../frameworks/automation-vs-augmentation.md) — Decision framework for determining where tasks fall on the automation-augmentation spectrum based on component, coordinative, and dynamic complexity.
-- [8 GTM Mistakes with AI](../../../frameworks/8-gtm-mistakes-with-ai.md) — Eight specific implementation patterns that kill GTM initiatives, from over-automating relationships to violating privacy and trust.
+- [Automation vs Augmentation](../../../frameworks/15-automation-vs-augmentation.md) — Decision framework for determining where tasks fall on the automation-augmentation spectrum based on component, coordinative, and dynamic complexity.
+- [8 GTM Mistakes with AI](../../../frameworks/16-eight-gtm-mistakes-with-ai.md) — Eight specific implementation patterns that kill GTM initiatives, from over-automating relationships to violating privacy and trust.
 
 ## Tools & Platforms
 

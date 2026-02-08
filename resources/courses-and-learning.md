@@ -1,6 +1,6 @@
 # Courses & Learning Resources
 
-> Learning resources for building AI-first companies -- from technical foundations to business strategy. Organized by format to support the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md).
+> Learning resources for building AI-first companies -- from technical foundations to business strategy. Organized by format to support the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md).
 
 ---
 
@@ -14,7 +14,7 @@
 | **Deep Learning Specialization** | deeplearning.ai (Coursera) | Five-course sequence covering neural networks, optimization, CNNs, sequence models, and attention mechanisms. |
 | **Machine Learning Specialization** | Stanford / deeplearning.ai (Coursera) | Updated foundational ML course covering supervised learning, recommender systems, and reinforcement learning. |
 | **Practical Deep Learning for Coders** | fast.ai | Top-down, code-first approach to deep learning. Free. Emphasizes practical application over theory. |
-| **Generative AI with Large Language Models** | deeplearning.ai / AWS (Coursera) | Covers LLM lifecycle -- training, fine-tuning, deployment, and evaluation. Relevant to the Build path in the [Build vs Buy Calculus](../frameworks/build-vs-buy-calculus.md). |
+| **Generative AI with Large Language Models** | deeplearning.ai / AWS (Coursera) | Covers LLM lifecycle -- training, fine-tuning, deployment, and evaluation. Relevant to the Build path in the [Build vs Buy Calculus](../frameworks/04-build-vs-buy-calculus.md). |
 | **LangChain for LLM Application Development** | deeplearning.ai | Short course on building LLM applications with LangChain -- chains, agents, and memory. |
 
 ### AI in Business
@@ -23,7 +23,7 @@
 |--------|----------|-------------|
 | **AI Product Management Specialization** | Duke University (Coursera) | Managing AI products, evaluating ML solutions, and building human-centered AI. |
 | **AI for Business** | Wharton (Coursera) | AI fundamentals for business leaders: strategy, analytics, and workforce implications. |
-| **Prompt Engineering for Developers** | deeplearning.ai | Techniques for effective prompting. Complements the [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) framework. |
+| **Prompt Engineering for Developers** | deeplearning.ai | Techniques for effective prompting. Complements the [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) framework. |
 | **Building AI-Powered Apps** | Replit | Hands-on course for building applications with AI coding assistants. |
 
 ---
@@ -36,7 +36,7 @@ Recommended reading that complements the topics covered in *Blueprint for an AI-
 
 | Book | Author(s) | Why It Complements |
 |------|-----------|-------------------|
-| *Co-Intelligence: Living and Working with AI* | Ethan Mollick | Practical frameworks for human-AI collaboration. Complements Chapter 2's [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) framework. |
+| *Co-Intelligence: Living and Working with AI* | Ethan Mollick | Practical frameworks for human-AI collaboration. Complements Chapter 2's [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) framework. |
 | *Prediction Machines* | Ajay Agrawal, Joshua Gans, Avi Goldfarb | Economic framework for understanding AI as a prediction technology. Complements the data strategy chapters. |
 | *The AI Organization* | David De Cremer | Leadership and organizational design for AI-driven companies. Complements Chapter 8 (Teams). |
 | *Power and Prediction* | Ajay Agrawal, Joshua Gans, Avi Goldfarb | Follow-up to *Prediction Machines* focused on AI-driven decision-making and system-level change. |
@@ -68,8 +68,8 @@ Professional certifications relevant to AI-first company building.
 
 | Certification | Provider | Focus |
 |--------------|----------|-------|
-| **Certified AI Governance Professional** | IAPP (International Association of Privacy Professionals) | AI governance, risk management, and compliance. Relevant to the [AI Governance Framework](../frameworks/ai-governance-framework.md). |
-| **ISO 42001 Lead Implementer** | Various certification bodies | International standard for AI management systems. Referenced in the [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) framework. |
+| **Certified AI Governance Professional** | IAPP (International Association of Privacy Professionals) | AI governance, risk management, and compliance. Relevant to the [AI Governance Framework](../frameworks/18-ai-governance-framework.md). |
+| **ISO 42001 Lead Implementer** | Various certification bodies | International standard for AI management systems. Referenced in the [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) framework. |
 | **Google Responsible AI Certification** | Google Cloud | Principles and practices for developing responsible AI systems. |
 
 ---
@@ -108,7 +108,7 @@ Audio resources for AI strategy and technical depth.
 
 ### For the 90-Day AI Fluency Program
 
-Aligned with the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) phases:
+Aligned with the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) phases:
 
 **Phase 1 (Days 1-30 -- Foundation):**
 - *AI for Everyone* course

@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [AI-First vs AI-Enabled](../../../frameworks/ai-first-vs-ai-enabled.md) -- The Kill Test and five observable characteristics that distinguish companies built *on* AI from companies built *with* AI.
+- [AI-First vs AI-Enabled](../../../frameworks/01-ai-first-vs-ai-enabled.md) -- The Kill Test and five observable characteristics that distinguish companies built *on* AI from companies built *with* AI.
 
 ## Tools & Platforms
 

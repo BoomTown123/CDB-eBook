@@ -4,9 +4,9 @@
 
 ## Frameworks from This Chapter
 
-- [Permission Model Framework](../../../frameworks/permission-model-framework.md) — Three permission modes (Auto, Approved-Tools, Ask-Every-Time) matched to stakes, reversibility, and evidence for governing AI autonomy.
-- [AI Governance Framework](../../../frameworks/ai-governance-framework.md) — Three Lines of Defense model with layered authority, escalation thresholds, and RACI decision rights for AI governance that enables rather than blocks.
-- [7 AI Risks and Mitigations](../../../frameworks/7-ai-risks-and-mitigations.md) — Seven threat vectors (hallucination, bias, privacy leakage, prompt injection, model drift, security vulnerabilities, regulatory non-compliance) with documented failures and proven controls.
+- [Permission Model Framework](../../../frameworks/17-permission-model-framework.md) — Three permission modes (Auto, Approved-Tools, Ask-Every-Time) matched to stakes, reversibility, and evidence for governing AI autonomy.
+- [AI Governance Framework](../../../frameworks/18-ai-governance-framework.md) — Three Lines of Defense model with layered authority, escalation thresholds, and RACI decision rights for AI governance that enables rather than blocks.
+- [7 AI Risks and Mitigations](../../../frameworks/19-seven-ai-risks-and-mitigations.md) — Seven threat vectors (hallucination, bias, privacy leakage, prompt injection, model drift, security vulnerabilities, regulatory non-compliance) with documented failures and proven controls.
 
 ## Tools & Platforms
 

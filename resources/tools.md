@@ -6,7 +6,7 @@
 
 ## AI Coding Tools
 
-Tools that integrate AI directly into the software development workflow. Referenced extensively in Chapter 5 (Building with AI) and the [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) framework.
+Tools that integrate AI directly into the software development workflow. Referenced extensively in Chapter 5 (Building with AI) and the [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) framework.
 
 | Tool | Description | URL |
 |------|-------------|-----|
@@ -20,7 +20,7 @@ Tools that integrate AI directly into the software development workflow. Referen
 
 ## Foundation Model Providers
 
-The core model providers discussed in Chapter 3 (The AI Landscape) and the [Foundation Models](../frameworks/foundation-models.md) framework.
+The core model providers discussed in Chapter 3 (The AI Landscape) and the [Foundation Models](../frameworks/06-foundation-models.md) framework.
 
 | Provider | Description | URL |
 |----------|-------------|-----|
@@ -49,7 +49,7 @@ Platforms for building, orchestrating, and monitoring AI applications. Reference
 
 ## Vector Databases
 
-Specialized databases for storing and querying embeddings, essential for RAG architectures. RAG adoption jumped from 31% to 51% in one year (referenced in the [10 Principles](../frameworks/10-principles-of-ai-first.md) framework).
+Specialized databases for storing and querying embeddings, essential for RAG architectures. RAG adoption jumped from 31% to 51% in one year (referenced in the [10 Principles](../frameworks/20-ten-principles-of-ai-first.md) framework).
 
 | Database | Description | URL |
 |----------|-------------|-----|
@@ -63,7 +63,7 @@ Specialized databases for storing and querying embeddings, essential for RAG arc
 
 ## AI Observability
 
-Monitoring and evaluation platforms for AI systems in production. Addresses the observability gaps described in [5 Infrastructure Mistakes](../frameworks/5-infrastructure-mistakes.md) -- only 51% of organizations can confidently evaluate AI ROI.
+Monitoring and evaluation platforms for AI systems in production. Addresses the observability gaps described in [5 Infrastructure Mistakes](../frameworks/08-five-infrastructure-mistakes.md) -- only 51% of organizations can confidently evaluate AI ROI.
 
 | Tool | Description | URL |
 |------|-------------|-----|
@@ -75,7 +75,7 @@ Monitoring and evaluation platforms for AI systems in production. Addresses the 
 
 ## AI Security
 
-Security tools for protecting AI systems against prompt injection, jailbreaking, and data leakage. Addresses risks covered in [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md).
+Security tools for protecting AI systems against prompt injection, jailbreaking, and data leakage. Addresses risks covered in [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md).
 
 | Tool | Description | URL |
 |------|-------------|-----|
@@ -87,7 +87,7 @@ Security tools for protecting AI systems against prompt injection, jailbreaking,
 
 ## Related Frameworks
 
-- [Foundation Models Landscape](../frameworks/foundation-models.md) -- Detailed comparison of model strengths, weaknesses, and pricing
-- [6 Questions Before Choosing a Model](../frameworks/6-questions-before-choosing-a-model.md) -- Decision framework for model selection
-- [Build vs Buy Calculus](../frameworks/build-vs-buy-calculus.md) -- When to use vendor tools vs. building your own
-- [5 Infrastructure Mistakes](../frameworks/5-infrastructure-mistakes.md) -- Common infrastructure failures to avoid
+- [Foundation Models Landscape](../frameworks/06-foundation-models.md) -- Detailed comparison of model strengths, weaknesses, and pricing
+- [6 Questions Before Choosing a Model](../frameworks/07-six-questions-before-choosing-a-model.md) -- Decision framework for model selection
+- [Build vs Buy Calculus](../frameworks/04-build-vs-buy-calculus.md) -- When to use vendor tools vs. building your own
+- [5 Infrastructure Mistakes](../frameworks/08-five-infrastructure-mistakes.md) -- Common infrastructure failures to avoid

@@ -30,8 +30,8 @@ Domain microsites with shared infrastructure. The architecture pattern that enab
 - **AI Coding Maturity** - Autocomplete → generation → agents → orchestration
 - **Agent Architecture** - Chat agents vs background agents
 - **Domain Autonomy** - Own your domain, share your foundation
-- [Probabilistic AI](../../frameworks/probabilistic-ai.md) - Designing for uncertainty in agent operations
-- [Human AI Collaboration](../../frameworks/human-ai-collaboration.md) - Human-AI workflows in development
+- [Probabilistic AI](../../frameworks/03-probabilistic-ai.md) - Designing for uncertainty in agent operations
+- [Human AI Collaboration](../../frameworks/05-human-ai-collaboration.md) - Human-AI workflows in development
 
 ---
 

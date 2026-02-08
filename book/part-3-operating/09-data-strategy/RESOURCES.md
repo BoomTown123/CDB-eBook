@@ -4,9 +4,9 @@
 
 ## Frameworks from This Chapter
 
-- [Data Flywheel](../../../frameworks/data-flywheel.md) — The 5-component flywheel (Collection, Storage, Analysis, Application, Feedback) and how to build self-reinforcing data loops that compound advantage.
-- [Data Moats](../../../frameworks/data-moats.md) — The moat test framework for evaluating whether your data advantage is measured in days, months, or years of defensibility.
-- [6 Data Strategy Mistakes](../../../frameworks/6-data-strategy-mistakes.md) — Six patterns that kill data flywheels, from building before product-market fit to platform risk and single-point dependencies.
+- [Data Flywheel](../../../frameworks/12-data-flywheel.md) — The 5-component flywheel (Collection, Storage, Analysis, Application, Feedback) and how to build self-reinforcing data loops that compound advantage.
+- [Data Moats](../../../frameworks/13-data-moats.md) — The moat test framework for evaluating whether your data advantage is measured in days, months, or years of defensibility.
+- [6 Data Strategy Mistakes](../../../frameworks/14-six-data-strategy-mistakes.md) — Six patterns that kill data flywheels, from building before product-market fit to platform risk and single-point dependencies.
 
 ## Tools & Platforms
 

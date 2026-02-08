@@ -2,7 +2,7 @@
 
 > A week-by-week implementation workflow for rolling out the 90-Day AI Fluency Program, from pre-launch preparation through post-program scaling.
 
-*Based on the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) framework --- Chapter 8*
+*Based on the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) framework --- Chapter 8*
 
 ## When to Use This Workflow
 
@@ -68,9 +68,9 @@
 
 ## Related Resources
 
-- [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) --- The framework this workflow implements
+- [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) --- The framework this workflow implements
 - [Team AI Fluency Rollout Guide](../guides/team-ai-fluency-rollout.md) --- The full guide covering buy-in, pitfalls, and strategy
-- [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) --- Collaboration patterns for Phase 3
-- [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) --- Technical team patterns for the Mastery phase
+- [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) --- Collaboration patterns for Phase 3
+- [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) --- Technical team patterns for the Mastery phase
 
 **Full chapter:** [Chapter 8: Teams for AI-First Companies](../book/part-3-operating/08-teams-for-ai-first-companies/README.md)

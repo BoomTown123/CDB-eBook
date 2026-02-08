@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [5 Infrastructure Mistakes That Kill AI Initiatives](../../../frameworks/5-infrastructure-mistakes.md) -- Over-engineering early, single points of failure, no observability, ignoring cost signals, and security as an afterthought.
+- [5 Infrastructure Mistakes That Kill AI Initiatives](../../../frameworks/08-five-infrastructure-mistakes.md) -- Over-engineering early, single points of failure, no observability, ignoring cost signals, and security as an afterthought.
 
 ## Tools & Platforms
 

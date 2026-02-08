@@ -144,11 +144,11 @@ Treat these seven failure modes as new categories for your operational runbook. 
 
 ## Related Frameworks
 
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The Permission Spectrum model (Model #4) directly informs how to calibrate agent autonomy
-- [8 Patterns for AI Coding](8-patterns-for-ai-coding.md) -- Patterns 7 (Checkpoint Commits) and 8 (Review Ruthlessly) help prevent agent-generated code failures
-- [Probabilistic AI](probabilistic-ai.md) -- Why agents fail differently than deterministic software
-- [AI Governance Framework](ai-governance-framework.md) -- Formalizing the guardrails that prevent these failure modes
-- [10 Principles of AI-First](10-principles-of-ai-first.md) -- Principle 3 (Guardrails, Not a Blank Check) and Principle 5 (Chat vs Background agents)
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The Permission Spectrum model (Model #4) directly informs how to calibrate agent autonomy
+- [8 Patterns for AI Coding](09-eight-patterns-for-ai-coding.md) -- Patterns 7 (Checkpoint Commits) and 8 (Review Ruthlessly) help prevent agent-generated code failures
+- [Probabilistic AI](03-probabilistic-ai.md) -- Why agents fail differently than deterministic software
+- [AI Governance Framework](18-ai-governance-framework.md) -- Formalizing the guardrails that prevent these failure modes
+- [10 Principles of AI-First](20-ten-principles-of-ai-first.md) -- Principle 3 (Guardrails, Not a Blank Check) and Principle 5 (Chat vs Background agents)
 
 ## Deep Dive
 

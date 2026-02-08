@@ -4,7 +4,7 @@
 
 ## Frameworks from This Chapter
 
-- [7 Failure Modes of Agents](../../../frameworks/7-failure-modes-of-agents.md) -- Hallucinated actions, scope creep, context loss, infinite loops, cascading failures, resource exhaustion, and stale data -- with mitigations for each.
+- [7 Failure Modes of Agents](../../../frameworks/10-seven-failure-modes-of-agents.md) -- Hallucinated actions, scope creep, context loss, infinite loops, cascading failures, resource exhaustion, and stale data -- with mitigations for each.
 
 ## Tools & Platforms
 

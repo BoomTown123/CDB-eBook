@@ -122,11 +122,11 @@ Start by auditing every AI system you currently operate against the three modes.
 
 ## Related Frameworks
 
-- [AI Governance Framework](ai-governance-framework.md) -- The broader governance structure within which permission models operate
-- [7 AI Risks and Mitigations](7-ai-risks-and-mitigations.md) -- Risk categories that inform permission mode selection
-- [Automation vs Augmentation](automation-vs-augmentation.md) -- The spectrum of human-AI task allocation that permission modes enable
-- [Human-AI Collaboration](human-ai-collaboration.md) -- Design patterns for effective human-AI teaming across permission levels
-- [Probabilistic AI](probabilistic-ai.md) -- Why AI outputs are probabilistic and what that means for trust decisions
+- [AI Governance Framework](18-ai-governance-framework.md) -- The broader governance structure within which permission models operate
+- [7 AI Risks and Mitigations](19-seven-ai-risks-and-mitigations.md) -- Risk categories that inform permission mode selection
+- [Automation vs Augmentation](15-automation-vs-augmentation.md) -- The spectrum of human-AI task allocation that permission modes enable
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- Design patterns for effective human-AI teaming across permission levels
+- [Probabilistic AI](03-probabilistic-ai.md) -- Why AI outputs are probabilistic and what that means for trust decisions
 
 ## Deep Dive
 

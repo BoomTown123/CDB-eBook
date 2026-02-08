@@ -55,6 +55,6 @@ Use this every time you write or modify code with AI assistance -- Claude Code, 
 
 ## Related Resources
 
-- [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) -- The complete framework with research and rationale
-- [Human-AI Collaboration Framework](../frameworks/human-ai-collaboration.md) -- The broader collaboration model
-- [7 Failure Modes of Agents](../frameworks/7-failure-modes-of-agents.md) -- What goes wrong without guardrails
+- [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) -- The complete framework with research and rationale
+- [Human-AI Collaboration Framework](../frameworks/05-human-ai-collaboration.md) -- The broader collaboration model
+- [7 Failure Modes of Agents](../frameworks/10-seven-failure-modes-of-agents.md) -- What goes wrong without guardrails

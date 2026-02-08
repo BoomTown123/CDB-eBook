@@ -143,11 +143,11 @@ Audit your current operations by listing every task and scoring it on the three 
 
 ## Related Frameworks
 
-- [Human-AI Collaboration](human-ai-collaboration.md) -- The collaboration patterns that make augmentation effective
-- [Permission Model Framework](permission-model-framework.md) -- How permission levels map to automation progression stages
-- [AI Governance Framework](ai-governance-framework.md) -- Governance oversight for automation decisions
-- [8 GTM Mistakes with AI](8-gtm-mistakes-with-ai.md) -- Common go-to-market errors that stem from over-automation
-- [AI-First vs AI-Enabled](ai-first-vs-ai-enabled.md) -- The strategic context for automation and augmentation decisions
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- The collaboration patterns that make augmentation effective
+- [Permission Model Framework](17-permission-model-framework.md) -- How permission levels map to automation progression stages
+- [AI Governance Framework](18-ai-governance-framework.md) -- Governance oversight for automation decisions
+- [8 GTM Mistakes with AI](16-eight-gtm-mistakes-with-ai.md) -- Common go-to-market errors that stem from over-automation
+- [AI-First vs AI-Enabled](01-ai-first-vs-ai-enabled.md) -- The strategic context for automation and augmentation decisions
 
 ## Deep Dive
 

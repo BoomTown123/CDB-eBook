@@ -2,7 +2,7 @@
 
 > Prompts for evaluating AI outputs for safety, alignment, and policy compliance. Use these when deploying customer-facing AI, auditing agent behavior, or building safety testing into your CI pipeline.
 >
-> Reference: [7 AI Risks and Mitigations](../../../frameworks/7-ai-risks-and-mitigations.md) | [Permission Model Framework](../../../frameworks/permission-model-framework.md) | [AI Governance Framework](../../../frameworks/ai-governance-framework.md)
+> Reference: [7 AI Risks and Mitigations](../../../frameworks/19-seven-ai-risks-and-mitigations.md) | [Permission Model Framework](../../../frameworks/17-permission-model-framework.md) | [AI Governance Framework](../../../frameworks/18-ai-governance-framework.md)
 
 ---
 
@@ -218,7 +218,7 @@ Pre-deployment safety checklist:
    - Alert on any metric declining more than 10% week-over-week
 ```
 
-This pipeline maps to the [AI Governance Framework](../../../frameworks/ai-governance-framework.md): governance structures that enable rather than block by making safety checks fast and automated.
+This pipeline maps to the [AI Governance Framework](../../../frameworks/18-ai-governance-framework.md): governance structures that enable rather than block by making safety checks fast and automated.
 
 ---
 

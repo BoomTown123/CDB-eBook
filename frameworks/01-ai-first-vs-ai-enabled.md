@@ -94,11 +94,11 @@ Apply the Kill Test to your own product or any company you're evaluating. If rem
 
 ## Related Frameworks
 
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The thinking models that define the AI-first mindset
-- [Build vs Buy Calculus](build-vs-buy-calculus.md) -- How the AI-first vs AI-enabled distinction changes the build/buy decision
-- [Data Flywheel](data-flywheel.md) -- The mechanism that creates AI-first competitive moats
-- [Data Moats](data-moats.md) -- Why AI-first data advantages are hard to replicate
-- [10 Principles of AI-First](10-principles-of-ai-first.md) -- The enduring principles for staying AI-first as technology evolves
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The thinking models that define the AI-first mindset
+- [Build vs Buy Calculus](04-build-vs-buy-calculus.md) -- How the AI-first vs AI-enabled distinction changes the build/buy decision
+- [Data Flywheel](12-data-flywheel.md) -- The mechanism that creates AI-first competitive moats
+- [Data Moats](13-data-moats.md) -- Why AI-first data advantages are hard to replicate
+- [10 Principles of AI-First](20-ten-principles-of-ai-first.md) -- The enduring principles for staying AI-first as technology evolves
 
 ## Deep Dive
 

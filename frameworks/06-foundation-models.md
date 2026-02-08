@@ -130,10 +130,10 @@ Use this framework to map your specific requirements (use case, latency, complia
 
 ## Related Frameworks
 
-- [6 Questions Before Choosing a Model](6-questions-before-choosing-a-model.md) --- the decision framework for applying this landscape knowledge
-- [Build vs. Buy Calculus](build-vs-buy-calculus.md) --- related infrastructure decisions
-- [AI-First vs. AI-Enabled](ai-first-vs-ai-enabled.md) --- how model strategy differs between the two approaches
-- [5 Infrastructure Mistakes](5-infrastructure-mistakes.md) --- what goes wrong after model selection
+- [6 Questions Before Choosing a Model](07-six-questions-before-choosing-a-model.md) --- the decision framework for applying this landscape knowledge
+- [Build vs. Buy Calculus](04-build-vs-buy-calculus.md) --- related infrastructure decisions
+- [AI-First vs. AI-Enabled](01-ai-first-vs-ai-enabled.md) --- how model strategy differs between the two approaches
+- [5 Infrastructure Mistakes](08-five-infrastructure-mistakes.md) --- what goes wrong after model selection
 
 ## Deep Dive
 

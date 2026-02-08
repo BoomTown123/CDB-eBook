@@ -6,7 +6,7 @@
 
 ## Human-AI Collaboration
 
-Studies on how humans and AI work together effectively -- and when collaboration fails. Central to Chapter 2 (The AI-First Mindset) and the [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) framework.
+Studies on how humans and AI work together effectively -- and when collaboration fails. Central to Chapter 2 (The AI-First Mindset) and the [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) framework.
 
 | Study | Organization | Key Finding | Topic |
 |-------|-------------|-------------|-------|
@@ -35,7 +35,7 @@ Large-scale surveys and analyses on AI adoption patterns across industries. Refe
 
 ## AI Risk & Safety
 
-Research on AI risks, security vulnerabilities, and safety frameworks. Core to Chapter 11 (Ethics, Governance, and Risk) and the [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) framework.
+Research on AI risks, security vulnerabilities, and safety frameworks. Core to Chapter 11 (Ethics, Governance, and Risk) and the [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) framework.
 
 | Study | Organization | Key Finding | Topic |
 |-------|-------------|-------------|-------|
@@ -51,7 +51,7 @@ Research on AI risks, security vulnerabilities, and safety frameworks. Core to C
 
 ## Data Strategy & Competitive Advantage
 
-Research on data flywheels, data moats, and AI economics. Referenced in Chapter 9 (Data Strategy) and the [Data Flywheel](../frameworks/data-flywheel.md) and [Data Moats](../frameworks/data-moats.md) frameworks.
+Research on data flywheels, data moats, and AI economics. Referenced in Chapter 9 (Data Strategy) and the [Data Flywheel](../frameworks/12-data-flywheel.md) and [Data Moats](../frameworks/13-data-moats.md) frameworks.
 
 | Study | Organization | Key Finding | Topic |
 |-------|-------------|-------------|-------|
@@ -65,7 +65,7 @@ Research on data flywheels, data moats, and AI economics. Referenced in Chapter 
 
 ## AI Governance & Regulation
 
-Regulatory frameworks and governance research. Referenced in Chapter 11 and the [AI Governance Framework](../frameworks/ai-governance-framework.md).
+Regulatory frameworks and governance research. Referenced in Chapter 11 and the [AI Governance Framework](../frameworks/18-ai-governance-framework.md).
 
 | Framework / Study | Organization | Description | Topic |
 |-------------------|-------------|-------------|-------|
@@ -80,8 +80,8 @@ Regulatory frameworks and governance research. Referenced in Chapter 11 and the 
 
 ## Related Frameworks
 
-- [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) -- Applies the MIT and Nature Human Behaviour findings
-- [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) -- Operationalizes the NIST AI RMF research
-- [Data Flywheel](../frameworks/data-flywheel.md) -- Built on the data strategy research
-- [AI Governance Framework](../frameworks/ai-governance-framework.md) -- Implements EU AI Act and ISO 42001 requirements
-- [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) -- Informed by the METR developer productivity study
+- [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) -- Applies the MIT and Nature Human Behaviour findings
+- [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) -- Operationalizes the NIST AI RMF research
+- [Data Flywheel](../frameworks/12-data-flywheel.md) -- Built on the data strategy research
+- [AI Governance Framework](../frameworks/18-ai-governance-framework.md) -- Implements EU AI Act and ISO 42001 requirements
+- [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) -- Informed by the METR developer productivity study

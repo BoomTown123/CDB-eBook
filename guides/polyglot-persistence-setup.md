@@ -133,8 +133,8 @@ The goal isn't architectural elegance. The goal is a data architecture that acce
 ## Related Resources
 
 - [Data Strategy Checklist](../checklists/data-strategy-checklist.md) --- Audit your data strategy across collection, quality, flywheel design, moats, and governance
-- [Building Data Flywheels](../frameworks/data-flywheel.md) --- How your persistence layer feeds self-reinforcing data loops
-- [Data Moats](../frameworks/data-moats.md) --- Assessing whether your data architecture creates defensible advantage
-- [5 Infrastructure Mistakes](../frameworks/5-infrastructure-mistakes.md) --- Common infrastructure failures to avoid as you scale
+- [Building Data Flywheels](../frameworks/12-data-flywheel.md) --- How your persistence layer feeds self-reinforcing data loops
+- [Data Moats](../frameworks/13-data-moats.md) --- Assessing whether your data architecture creates defensible advantage
+- [5 Infrastructure Mistakes](../frameworks/08-five-infrastructure-mistakes.md) --- Common infrastructure failures to avoid as you scale
 
 **Full chapters:** [Chapter 4: Infrastructure](../book/part-2-building/04-infrastructure-for-ai-first-operations/README.md) | [Chapter 9: Data Strategy](../book/part-3-operating/09-data-strategy/README.md)

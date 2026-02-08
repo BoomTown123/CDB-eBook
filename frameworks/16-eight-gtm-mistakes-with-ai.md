@@ -134,11 +134,11 @@ Audit your current GTM AI initiatives against all eight mistakes. Most organizat
 
 ## Related Frameworks
 
-- [Automation vs. Augmentation](automation-vs-augmentation.md) --- the spectrum between Mistake 1 and effective AI integration
-- [Human-AI Collaboration](human-ai-collaboration.md) --- the collaboration model that avoids over-automation
-- [6 Data Strategy Mistakes](6-data-strategy-mistakes.md) --- related failure patterns in the data layer
-- [Data Flywheel](data-flywheel.md) --- the feedback loop that good GTM creates
-- [7 AI Risks and Mitigations](7-ai-risks-and-mitigations.md) --- risk framework relevant to Mistake 8
+- [Automation vs. Augmentation](15-automation-vs-augmentation.md) --- the spectrum between Mistake 1 and effective AI integration
+- [Human-AI Collaboration](05-human-ai-collaboration.md) --- the collaboration model that avoids over-automation
+- [6 Data Strategy Mistakes](14-six-data-strategy-mistakes.md) --- related failure patterns in the data layer
+- [Data Flywheel](12-data-flywheel.md) --- the feedback loop that good GTM creates
+- [7 AI Risks and Mitigations](19-seven-ai-risks-and-mitigations.md) --- risk framework relevant to Mistake 8
 
 ## Deep Dive
 

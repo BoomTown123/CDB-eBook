@@ -4,10 +4,10 @@
 
 ## Frameworks from This Chapter
 
-- [The 7 Mental Models of AI-First Thinking](../../../frameworks/7-mental-models-of-ai-first.md) -- Agent-first design, probabilistic thinking, data as product, permission spectrum, compound iteration, build vs buy inversion, and human-AI collaboration.
-- [Probabilistic AI](../../../frameworks/probabilistic-ai.md) -- Designing for uncertainty as a feature rather than a bug.
-- [Build vs Buy Calculus](../../../frameworks/build-vs-buy-calculus.md) -- MIT's "Buy, Boost, or Build" framework and the three questions that determine your path.
-- [Human-AI Collaboration](../../../frameworks/human-ai-collaboration.md) -- MIT's finding that human-AI combinations don't automatically outperform, and the three conditions where collaboration succeeds.
+- [The 7 Mental Models of AI-First Thinking](../../../frameworks/02-seven-mental-models-of-ai-first.md) -- Agent-first design, probabilistic thinking, data as product, permission spectrum, compound iteration, build vs buy inversion, and human-AI collaboration.
+- [Probabilistic AI](../../../frameworks/03-probabilistic-ai.md) -- Designing for uncertainty as a feature rather than a bug.
+- [Build vs Buy Calculus](../../../frameworks/04-build-vs-buy-calculus.md) -- MIT's "Buy, Boost, or Build" framework and the three questions that determine your path.
+- [Human-AI Collaboration](../../../frameworks/05-human-ai-collaboration.md) -- MIT's finding that human-AI combinations don't automatically outperform, and the three conditions where collaboration succeeds.
 
 ## Tools & Platforms
 

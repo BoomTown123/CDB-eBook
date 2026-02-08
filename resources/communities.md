@@ -100,7 +100,7 @@ Communities organized around specific open source AI projects. See also [Open So
 4. Connect with the **Chief AI Officer Network** on LinkedIn
 
 ### If you are building a team:
-1. Start with the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md)
+1. Start with the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md)
 2. Use **MLOps Community** Slack for production ML questions
 3. Use **Weights & Biases** community for experiment tracking practices
 4. Attend **Ray Summit** for scaling AI infrastructure

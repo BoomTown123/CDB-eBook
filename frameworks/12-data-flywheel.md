@@ -103,10 +103,10 @@ Map your current data flow against the five components. Identify where the break
 
 ## Related Frameworks
 
-- [Data Moats](data-moats.md) --- the defensibility that a working flywheel creates
-- [6 Data Strategy Mistakes](6-data-strategy-mistakes.md) --- mistakes that stall your flywheel
-- [8 GTM Mistakes with AI](8-gtm-mistakes-with-ai.md) --- GTM failures that prevent data generation
-- [AI-First vs. AI-Enabled](ai-first-vs-ai-enabled.md) --- why AI-first companies need flywheels and AI-enabled companies don't
+- [Data Moats](13-data-moats.md) --- the defensibility that a working flywheel creates
+- [6 Data Strategy Mistakes](14-six-data-strategy-mistakes.md) --- mistakes that stall your flywheel
+- [8 GTM Mistakes with AI](16-eight-gtm-mistakes-with-ai.md) --- GTM failures that prevent data generation
+- [AI-First vs. AI-Enabled](01-ai-first-vs-ai-enabled.md) --- why AI-first companies need flywheels and AI-enabled companies don't
 
 ## Deep Dive
 

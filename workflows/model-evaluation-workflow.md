@@ -2,7 +2,7 @@
 
 > A step-by-step workflow for evaluating and selecting AI models using business constraints as elimination criteria --- not benchmark hype.
 
-*Based on the [6 Questions Before Choosing a Model](../frameworks/6-questions-before-choosing-a-model.md) framework --- Chapter 3*
+*Based on the [6 Questions Before Choosing a Model](../frameworks/07-six-questions-before-choosing-a-model.md) framework --- Chapter 3*
 
 ## When to Use This Workflow
 
@@ -69,8 +69,8 @@ Gather technical and business stakeholders. Answer all six questions in sequence
 ## Related Resources
 
 - [Model Selection Checklist](../checklists/model-selection-checklist.md) --- The checkbox version for quick audits
-- [6 Questions Before Choosing a Model](../frameworks/6-questions-before-choosing-a-model.md) --- The framework this workflow implements
-- [Foundation Models Landscape](../frameworks/foundation-models.md) --- Understanding the models you are choosing between
-- [Build vs Buy Calculus](../frameworks/build-vs-buy-calculus.md) --- Related decision framework for infrastructure
+- [6 Questions Before Choosing a Model](../frameworks/07-six-questions-before-choosing-a-model.md) --- The framework this workflow implements
+- [Foundation Models Landscape](../frameworks/06-foundation-models.md) --- Understanding the models you are choosing between
+- [Build vs Buy Calculus](../frameworks/04-build-vs-buy-calculus.md) --- Related decision framework for infrastructure
 
 **Full chapter:** [Chapter 3: The AI Landscape](../book/part-1-foundations/03-the-ai-landscape/README.md)

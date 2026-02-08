@@ -22,11 +22,11 @@ Building adaptable organizations. Modular architecture as insurance, emerging te
 
 This part brings together all core concepts from the book, showing how they interconnect and evolve:
 
-- [AI First vs AI Enabled](../../frameworks/ai-first-vs-ai-enabled.md) - Remaining AI-first as technology evolves
-- [Build vs Buy Calculus](../../frameworks/build-vs-buy-calculus.md) - Revisiting decisions as landscape shifts
-- [Data Flywheel](../../frameworks/data-flywheel.md) - Long-term compounding advantages
-- [Probabilistic AI](../../frameworks/probabilistic-ai.md) - Adapting to improving AI capabilities
-- [Human AI Collaboration](../../frameworks/human-ai-collaboration.md) - Future of work implications
+- [AI First vs AI Enabled](../../frameworks/01-ai-first-vs-ai-enabled.md) - Remaining AI-first as technology evolves
+- [Build vs Buy Calculus](../../frameworks/04-build-vs-buy-calculus.md) - Revisiting decisions as landscape shifts
+- [Data Flywheel](../../frameworks/12-data-flywheel.md) - Long-term compounding advantages
+- [Probabilistic AI](../../frameworks/03-probabilistic-ai.md) - Adapting to improving AI capabilities
+- [Human AI Collaboration](../../frameworks/05-human-ai-collaboration.md) - Future of work implications
 - **Tiered Access** - Governance as enabler, not constraint
 - **Modular Architecture** - Insurance against obsolescence
 

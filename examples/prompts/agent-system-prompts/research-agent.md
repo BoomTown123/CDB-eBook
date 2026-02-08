@@ -205,7 +205,7 @@ Research the market for {PRODUCT_CATEGORY}:
 
 ## Design Decisions
 
-This agent addresses three of the [7 Failure Modes of Agents](../../../frameworks/7-failure-modes-of-agents.md):
+This agent addresses three of the [7 Failure Modes of Agents](../../../frameworks/10-seven-failure-modes-of-agents.md):
 
 - **Hallucination prevention:** The provenance tracking and "NEVER fabricate sources" constraint directly address the most common agent failure -- making things up. Requiring 2-source verification for facts adds a structural guard.
 - **Scope creep prevention:** The time limit and "propose a narrowed scope" escalation prevent the agent from spending unlimited time on open-ended questions.

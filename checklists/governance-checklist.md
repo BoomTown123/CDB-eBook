@@ -2,7 +2,7 @@
 
 Use this checklist when establishing or auditing your AI governance. Work through each category sequentially---permission models and risk assessment inform your governance structure, which drives compliance and monitoring.
 
-*Derived from the [Permission Model Framework](../frameworks/permission-model-framework.md), [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md), and [AI Governance Framework](../frameworks/ai-governance-framework.md) --- Chapter 11: Ethics, Governance, and Risk.*
+*Derived from the [Permission Model Framework](../frameworks/17-permission-model-framework.md), [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md), and [AI Governance Framework](../frameworks/18-ai-governance-framework.md) --- Chapter 11: Ethics, Governance, and Risk.*
 
 ---
 

@@ -113,10 +113,10 @@ Review each mistake against your current AI infrastructure. Run the detection te
 
 ## Related Frameworks
 
-- [6 Questions Before Choosing a Model](6-questions-before-choosing-a-model.md) --- decisions that come before infrastructure
-- [Build vs. Buy Calculus](build-vs-buy-calculus.md) --- infrastructure procurement decisions
-- [6 Data Strategy Mistakes](6-data-strategy-mistakes.md) --- related failure patterns in the data layer
-- [AI Governance Framework](ai-governance-framework.md) --- governance that prevents Mistake 5
+- [6 Questions Before Choosing a Model](07-six-questions-before-choosing-a-model.md) --- decisions that come before infrastructure
+- [Build vs. Buy Calculus](04-build-vs-buy-calculus.md) --- infrastructure procurement decisions
+- [6 Data Strategy Mistakes](14-six-data-strategy-mistakes.md) --- related failure patterns in the data layer
+- [AI Governance Framework](18-ai-governance-framework.md) --- governance that prevents Mistake 5
 
 ## Deep Dive
 

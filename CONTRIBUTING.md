@@ -52,7 +52,7 @@ A maintainer will review your pull request and may request changes before mergin
 ## Style Guidelines
 
 - Use standard Markdown formatting. Do not use wiki-style links.
-- All internal links must be relative paths (e.g., `frameworks/data-flywheel.md`, not absolute URLs).
+- All internal links must be relative paths (e.g., `frameworks/12-data-flywheel.md`, not absolute URLs).
 - Keep descriptions concise and actionable.
 - Code examples should be minimal, well-commented, and educational. They are meant to illustrate patterns, not serve as production-ready implementations.
 - Do not include emojis in file content.

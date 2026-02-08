@@ -2,7 +2,7 @@
 
 > The eight patterns that separate productive AI-assisted development from expensive flailing --- with practical examples and tips for each.
 
-*Based on the [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) framework --- Chapter 5*
+*Based on the [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) framework --- Chapter 5*
 
 ## What You'll Learn
 
@@ -102,9 +102,9 @@ Review as if reviewing a junior developer who thinks they are a senior. Check co
 
 ## Related Resources
 
-- [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) --- The framework summary this guide expands on
-- [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) --- The broader collaboration model these patterns implement
-- [7 Failure Modes of Agents](../frameworks/7-failure-modes-of-agents.md) --- What goes wrong when agents operate without guardrails
-- [Probabilistic AI](../frameworks/probabilistic-ai.md) --- Why AI outputs require the review rigor in Pattern 8
+- [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) --- The framework summary this guide expands on
+- [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) --- The broader collaboration model these patterns implement
+- [7 Failure Modes of Agents](../frameworks/10-seven-failure-modes-of-agents.md) --- What goes wrong when agents operate without guardrails
+- [Probabilistic AI](../frameworks/03-probabilistic-ai.md) --- Why AI outputs require the review rigor in Pattern 8
 
 **Full chapter:** [Chapter 5: Building with AI](../book/part-2-building/05-building-with-ai/README.md)

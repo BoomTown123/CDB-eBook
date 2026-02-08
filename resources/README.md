@@ -17,10 +17,10 @@
 
 Start with the resource type most relevant to your current challenge:
 
-- **Evaluating tools?** Start with [Tools & Platforms](tools.md) and cross-reference with the [Foundation Models](../frameworks/foundation-models.md) and [6 Questions Before Choosing a Model](../frameworks/6-questions-before-choosing-a-model.md) frameworks.
+- **Evaluating tools?** Start with [Tools & Platforms](tools.md) and cross-reference with the [Foundation Models](../frameworks/06-foundation-models.md) and [6 Questions Before Choosing a Model](../frameworks/07-six-questions-before-choosing-a-model.md) frameworks.
 - **Building a business case?** The [Research Papers](research-papers.md) provide data points on AI adoption, productivity, and risk.
 - **Learning from others?** [Case Studies](case-studies.md) maps every company example in the book to the chapters that discuss them.
-- **Upskilling your team?** [Courses & Learning](courses-and-learning.md) pairs with the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) framework.
+- **Upskilling your team?** [Courses & Learning](courses-and-learning.md) pairs with the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) framework.
 - **Finding your people?** [Communities](communities.md) connects you to practitioners building AI-first companies right now.
 - **Building in the open?** [Open Source Projects](open-source-projects.md) covers the frameworks, models, and tools discussed throughout the book.
 

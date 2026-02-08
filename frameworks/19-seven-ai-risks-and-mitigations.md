@@ -156,11 +156,11 @@ Assess your AI systems against all seven risk categories. For each, determine yo
 
 ## Related Frameworks
 
-- [AI Governance Framework](ai-governance-framework.md) --- the governance structures that operationalize these mitigations
-- [5 Infrastructure Mistakes](5-infrastructure-mistakes.md) --- infrastructure failures that amplify these risks
-- [8 GTM Mistakes with AI](8-gtm-mistakes-with-ai.md) --- go-to-market failures related to Risk 1, Risk 2, and GTM Mistake 8
-- [Human-AI Collaboration](human-ai-collaboration.md) --- collaboration models that mitigate output risks
-- [Probabilistic AI](probabilistic-ai.md) --- understanding AI's probabilistic nature as the root of Risk 1
+- [AI Governance Framework](18-ai-governance-framework.md) --- the governance structures that operationalize these mitigations
+- [5 Infrastructure Mistakes](08-five-infrastructure-mistakes.md) --- infrastructure failures that amplify these risks
+- [8 GTM Mistakes with AI](16-eight-gtm-mistakes-with-ai.md) --- go-to-market failures related to Risk 1, Risk 2, and GTM Mistake 8
+- [Human-AI Collaboration](05-human-ai-collaboration.md) --- collaboration models that mitigate output risks
+- [Probabilistic AI](03-probabilistic-ai.md) --- understanding AI's probabilistic nature as the root of Risk 1
 
 ## Deep Dive
 

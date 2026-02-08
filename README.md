@@ -155,10 +155,10 @@ What's documented: author voice encoding (6 files that teach an LLM to write lik
 
 | Framework | Chapter | Use When |
 |:----------|:--------|:---------|
-| [AI-First vs AI-Enabled](frameworks/ai-first-vs-ai-enabled.md) | Ch 1 | Assessing where your company falls on the spectrum |
-| [7 Failure Modes of Agents](frameworks/7-failure-modes-of-agents.md) | Ch 6 | Diagnosing why an agent is failing |
-| [8 Patterns for AI Coding](frameworks/8-patterns-for-ai-coding.md) | Ch 5 | Structuring AI-assisted development workflows |
-| [90-Day AI Fluency Program](frameworks/90-day-ai-fluency-program.md) | Ch 8 | Upskilling your team on AI tools and thinking |
+| [AI-First vs AI-Enabled](frameworks/01-ai-first-vs-ai-enabled.md) | Ch 1 | Assessing where your company falls on the spectrum |
+| [7 Failure Modes of Agents](frameworks/10-seven-failure-modes-of-agents.md) | Ch 6 | Diagnosing why an agent is failing |
+| [8 Patterns for AI Coding](frameworks/09-eight-patterns-for-ai-coding.md) | Ch 5 | Structuring AI-assisted development workflows |
+| [90-Day AI Fluency Program](frameworks/11-ninety-day-ai-fluency-program.md) | Ch 8 | Upskilling your team on AI tools and thinking |
 
 <details>
 <summary><strong>All 20 frameworks</strong></summary>
@@ -167,26 +167,26 @@ What's documented: author voice encoding (6 files that teach an LLM to write lik
 
 | Framework | Chapter | Use When |
 |:----------|:--------|:---------|
-| [AI-First vs AI-Enabled](frameworks/ai-first-vs-ai-enabled.md) | Ch 1 | Assessing where your company falls on the spectrum |
-| [7 Mental Models of AI-First](frameworks/7-mental-models-of-ai-first.md) | Ch 2 | Shifting how your team thinks about AI |
-| [Probabilistic AI](frameworks/probabilistic-ai.md) | Ch 2 | Designing for non-deterministic outputs |
-| [Build vs Buy Calculus](frameworks/build-vs-buy-calculus.md) | Ch 2 | Deciding whether to build or buy AI capabilities |
-| [Human-AI Collaboration](frameworks/human-ai-collaboration.md) | Ch 2 | Defining roles between humans and AI systems |
-| [Foundation Models](frameworks/foundation-models.md) | Ch 3 | Understanding major model families and trade-offs |
-| [6 Questions Before Choosing a Model](frameworks/6-questions-before-choosing-a-model.md) | Ch 3 | Evaluating which model fits your use case |
-| [5 Infrastructure Mistakes](frameworks/5-infrastructure-mistakes.md) | Ch 4 | Auditing your AI infrastructure decisions |
-| [8 Patterns for AI Coding](frameworks/8-patterns-for-ai-coding.md) | Ch 5 | Structuring AI-assisted development workflows |
-| [7 Failure Modes of Agents](frameworks/7-failure-modes-of-agents.md) | Ch 6 | Diagnosing why an agent is failing |
-| [90-Day AI Fluency Program](frameworks/90-day-ai-fluency-program.md) | Ch 8 | Upskilling your team on AI tools and thinking |
-| [Data Flywheel](frameworks/data-flywheel.md) | Ch 9 | Building compounding data advantages |
-| [Data Moats](frameworks/data-moats.md) | Ch 9 | Identifying defensible data assets |
-| [6 Data Strategy Mistakes](frameworks/6-data-strategy-mistakes.md) | Ch 9 | Avoiding common data strategy pitfalls |
-| [Automation vs Augmentation](frameworks/automation-vs-augmentation.md) | Ch 10 | Choosing where AI replaces vs enhances humans |
-| [8 GTM Mistakes with AI](frameworks/8-gtm-mistakes-with-ai.md) | Ch 10 | Reviewing your AI go-to-market approach |
-| [Permission Model Framework](frameworks/permission-model-framework.md) | Ch 11 | Designing AI permission and access controls |
-| [AI Governance Framework](frameworks/ai-governance-framework.md) | Ch 11 | Setting up organizational AI governance |
-| [7 AI Risks and Mitigations](frameworks/7-ai-risks-and-mitigations.md) | Ch 11 | Identifying and addressing AI-related risks |
-| [10 Principles of AI-First](frameworks/10-principles-of-ai-first.md) | Ch 12 | Grounding long-term AI-first strategy |
+| [AI-First vs AI-Enabled](frameworks/01-ai-first-vs-ai-enabled.md) | Ch 1 | Assessing where your company falls on the spectrum |
+| [7 Mental Models of AI-First](frameworks/02-seven-mental-models-of-ai-first.md) | Ch 2 | Shifting how your team thinks about AI |
+| [Probabilistic AI](frameworks/03-probabilistic-ai.md) | Ch 2 | Designing for non-deterministic outputs |
+| [Build vs Buy Calculus](frameworks/04-build-vs-buy-calculus.md) | Ch 2 | Deciding whether to build or buy AI capabilities |
+| [Human-AI Collaboration](frameworks/05-human-ai-collaboration.md) | Ch 2 | Defining roles between humans and AI systems |
+| [Foundation Models](frameworks/06-foundation-models.md) | Ch 3 | Understanding major model families and trade-offs |
+| [6 Questions Before Choosing a Model](frameworks/07-six-questions-before-choosing-a-model.md) | Ch 3 | Evaluating which model fits your use case |
+| [5 Infrastructure Mistakes](frameworks/08-five-infrastructure-mistakes.md) | Ch 4 | Auditing your AI infrastructure decisions |
+| [8 Patterns for AI Coding](frameworks/09-eight-patterns-for-ai-coding.md) | Ch 5 | Structuring AI-assisted development workflows |
+| [7 Failure Modes of Agents](frameworks/10-seven-failure-modes-of-agents.md) | Ch 6 | Diagnosing why an agent is failing |
+| [90-Day AI Fluency Program](frameworks/11-ninety-day-ai-fluency-program.md) | Ch 8 | Upskilling your team on AI tools and thinking |
+| [Data Flywheel](frameworks/12-data-flywheel.md) | Ch 9 | Building compounding data advantages |
+| [Data Moats](frameworks/13-data-moats.md) | Ch 9 | Identifying defensible data assets |
+| [6 Data Strategy Mistakes](frameworks/14-six-data-strategy-mistakes.md) | Ch 9 | Avoiding common data strategy pitfalls |
+| [Automation vs Augmentation](frameworks/15-automation-vs-augmentation.md) | Ch 10 | Choosing where AI replaces vs enhances humans |
+| [8 GTM Mistakes with AI](frameworks/16-eight-gtm-mistakes-with-ai.md) | Ch 10 | Reviewing your AI go-to-market approach |
+| [Permission Model Framework](frameworks/17-permission-model-framework.md) | Ch 11 | Designing AI permission and access controls |
+| [AI Governance Framework](frameworks/18-ai-governance-framework.md) | Ch 11 | Setting up organizational AI governance |
+| [7 AI Risks and Mitigations](frameworks/19-seven-ai-risks-and-mitigations.md) | Ch 11 | Identifying and addressing AI-related risks |
+| [10 Principles of AI-First](frameworks/20-ten-principles-of-ai-first.md) | Ch 12 | Grounding long-term AI-first strategy |
 
 </details>
 

@@ -14,7 +14,7 @@ Before diving into tactics, we establish why being AI-first matters, what it act
 The case for starting AI-first and the competitive advantages it creates. We explore the difference between AI-first and AI-enabled companies, first-mover advantages, and the inverted economics of building with AI.
 
 ### [Chapter 2: The AI-First Mindset](./02-the-ai-first-mindset/README.md)
-How AI-first founders think differently about opportunities and building. Covers agent-first design, [build vs buy calculus](../../frameworks/build-vs-buy-calculus.md), [data as product](../../frameworks/data-flywheel.md), and [human-AI collaboration](../../frameworks/human-ai-collaboration.md).
+How AI-first founders think differently about opportunities and building. Covers agent-first design, [build vs buy calculus](../../frameworks/04-build-vs-buy-calculus.md), [data as product](../../frameworks/12-data-flywheel.md), and [human-AI collaboration](../../frameworks/05-human-ai-collaboration.md).
 
 ### [Chapter 3: The AI Landscape — Models, Providers, and Aggregators](./03-the-ai-landscape/README.md)
 Navigating foundation models, providers, and aggregators. A decision framework for choosing between OpenAI, Anthropic, Google, open source, and routing strategies with OpenRouter.
@@ -23,11 +23,11 @@ Navigating foundation models, providers, and aggregators. A decision framework f
 
 ## Key Concepts Introduced
 
-- [AI First vs AI Enabled](../../frameworks/ai-first-vs-ai-enabled.md) - The fundamental distinction
-- [Build vs Buy Calculus](../../frameworks/build-vs-buy-calculus.md) - Strategic framework for capability decisions
-- [Data Flywheel](../../frameworks/data-flywheel.md) - Self-reinforcing data loops
-- [Probabilistic AI](../../frameworks/probabilistic-ai.md) - Managing uncertainty in AI outputs
-- [Human AI Collaboration](../../frameworks/human-ai-collaboration.md) - Designing effective human-AI teams
+- [AI First vs AI Enabled](../../frameworks/01-ai-first-vs-ai-enabled.md) - The fundamental distinction
+- [Build vs Buy Calculus](../../frameworks/04-build-vs-buy-calculus.md) - Strategic framework for capability decisions
+- [Data Flywheel](../../frameworks/12-data-flywheel.md) - Self-reinforcing data loops
+- [Probabilistic AI](../../frameworks/03-probabilistic-ai.md) - Managing uncertainty in AI outputs
+- [Human AI Collaboration](../../frameworks/05-human-ai-collaboration.md) - Designing effective human-AI teams
 - **Model Routing** - Multi-provider strategies and aggregation
 
 ---

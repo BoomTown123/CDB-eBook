@@ -178,11 +178,11 @@ Begin by selecting a pilot cohort of 20-50 people across different functions and
 
 ## Related Frameworks
 
-- [Human-AI Collaboration](human-ai-collaboration.md) -- The collaboration patterns your teams will learn to apply during Phase 3
-- [Automation vs Augmentation](automation-vs-augmentation.md) -- Understanding where AI augments versus replaces informs which use cases to prioritize in training
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The foundational thinking that fluency training embeds
-- [8 Patterns for AI Coding](8-patterns-for-ai-coding.md) -- Specific patterns for technical teams during the Mastery phase
-- [AI-First vs AI-Enabled](ai-first-vs-ai-enabled.md) -- The strategic distinction that motivates fluency investment
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- The collaboration patterns your teams will learn to apply during Phase 3
+- [Automation vs Augmentation](15-automation-vs-augmentation.md) -- Understanding where AI augments versus replaces informs which use cases to prioritize in training
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The foundational thinking that fluency training embeds
+- [8 Patterns for AI Coding](09-eight-patterns-for-ai-coding.md) -- Specific patterns for technical teams during the Mastery phase
+- [AI-First vs AI-Enabled](01-ai-first-vs-ai-enabled.md) -- The strategic distinction that motivates fluency investment
 
 ## Deep Dive
 

@@ -2,7 +2,7 @@
 
 > Prompts for systematically comparing outputs from different AI models on the same tasks. Use these when evaluating which model to use for a specific use case, or when deciding whether to switch providers.
 >
-> Reference: [6 Questions Before Choosing a Model](../../../frameworks/6-questions-before-choosing-a-model.md)
+> Reference: [6 Questions Before Choosing a Model](../../../frameworks/07-six-questions-before-choosing-a-model.md)
 
 ---
 

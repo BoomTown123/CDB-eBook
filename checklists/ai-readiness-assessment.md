@@ -4,7 +4,7 @@
 
 Use this checklist before committing to an AI-first transformation. Work through each category with your leadership team to identify gaps and blockers. Items left unchecked represent areas that need investment before -- or during -- the transition. Not every box must be checked to start, but you should have a plan for each unchecked item.
 
-*Derived from the [AI-First vs AI-Enabled](../frameworks/ai-first-vs-ai-enabled.md) and [7 Mental Models of AI-First](../frameworks/7-mental-models-of-ai-first.md) frameworks -- Chapters 1 and 2.*
+*Derived from the [AI-First vs AI-Enabled](../frameworks/01-ai-first-vs-ai-enabled.md) and [7 Mental Models of AI-First](../frameworks/02-seven-mental-models-of-ai-first.md) frameworks -- Chapters 1 and 2.*
 
 ---
 

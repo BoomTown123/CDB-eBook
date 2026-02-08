@@ -2,7 +2,7 @@
 
 > A step-by-step guide for taking your teams from AI novice to AI fluent through the 90-Day AI Fluency Program --- covering how to get buy-in, execute the three phases, measure success, and avoid common pitfalls.
 
-*Based on the [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) framework --- Chapter 8*
+*Based on the [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) framework --- Chapter 8*
 
 ## What You'll Build
 
@@ -110,9 +110,9 @@ Graduates become ground troops for Cohort 2, each supporting 15--20 new particip
 
 ## Related Resources
 
-- [90-Day AI Fluency Program](../frameworks/90-day-ai-fluency-program.md) --- The framework this guide implements
-- [Human-AI Collaboration](../frameworks/human-ai-collaboration.md) --- Collaboration patterns teams learn during Phase 3
-- [Automation vs Augmentation](../frameworks/automation-vs-augmentation.md) --- Helps decide which use cases to prioritize
-- [8 Patterns for AI Coding](../frameworks/8-patterns-for-ai-coding.md) --- Specific patterns for technical teams in Mastery phase
+- [90-Day AI Fluency Program](../frameworks/11-ninety-day-ai-fluency-program.md) --- The framework this guide implements
+- [Human-AI Collaboration](../frameworks/05-human-ai-collaboration.md) --- Collaboration patterns teams learn during Phase 3
+- [Automation vs Augmentation](../frameworks/15-automation-vs-augmentation.md) --- Helps decide which use cases to prioritize
+- [8 Patterns for AI Coding](../frameworks/09-eight-patterns-for-ai-coding.md) --- Specific patterns for technical teams in Mastery phase
 
 **Full chapter:** [Chapter 8: Teams for AI-First Companies](../book/part-3-operating/08-teams-for-ai-first-companies/README.md)

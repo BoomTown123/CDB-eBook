@@ -4,7 +4,7 @@
 
 Use this checklist before writing the first line of agent code. Agents fail differently than traditional software because they reason probabilistically and act autonomously. The seven failure modes documented here are drawn from real incidents, not hypotheticals. Working through each section forces you to design the failure path before the happy path.
 
-*Derived from the [7 Failure Modes of Agents](../frameworks/7-failure-modes-of-agents.md) framework -- Chapter 6.*
+*Derived from the [7 Failure Modes of Agents](../frameworks/10-seven-failure-modes-of-agents.md) framework -- Chapter 6.*
 
 ---
 

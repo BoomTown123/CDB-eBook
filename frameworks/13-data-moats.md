@@ -111,10 +111,10 @@ Run every data asset your organization considers a competitive advantage through
 
 ## Related Frameworks
 
-- [Data Flywheel](data-flywheel.md) --- the mechanism that generates defensible data through usage
-- [6 Data Strategy Mistakes](6-data-strategy-mistakes.md) --- mistakes that prevent moat formation
-- [Build vs. Buy Calculus](build-vs-buy-calculus.md) --- infrastructure decisions that affect moat strategy
-- [Foundation Models Landscape](foundation-models.md) --- the models that have commoditized traditional data moats
+- [Data Flywheel](12-data-flywheel.md) --- the mechanism that generates defensible data through usage
+- [6 Data Strategy Mistakes](14-six-data-strategy-mistakes.md) --- mistakes that prevent moat formation
+- [Build vs. Buy Calculus](04-build-vs-buy-calculus.md) --- infrastructure decisions that affect moat strategy
+- [Foundation Models Landscape](06-foundation-models.md) --- the models that have commoditized traditional data moats
 
 ## Deep Dive
 

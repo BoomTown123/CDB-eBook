@@ -2,7 +2,7 @@
 
 Use this checklist before deploying AI into your go-to-market operations. It covers the strategic, data, tooling, and measurement foundations required to avoid the eight documented GTM mistakes and to find the right balance between automation and augmentation. If you are evaluating a new AI-powered GTM tool, planning an AI-assisted outreach campaign, or auditing an existing AI deployment that is underperforming, start here.
 
-*Derived from the [8 GTM Mistakes with AI](../frameworks/8-gtm-mistakes-with-ai.md) and [Automation vs Augmentation](../frameworks/automation-vs-augmentation.md) --- Chapter 10: AI-Augmented Operations and GTM.*
+*Derived from the [8 GTM Mistakes with AI](../frameworks/16-eight-gtm-mistakes-with-ai.md) and [Automation vs Augmentation](../frameworks/15-automation-vs-augmentation.md) --- Chapter 10: AI-Augmented Operations and GTM.*
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## AI-First Companies
 
-Companies built from the ground up with AI at their core. If you remove the AI, the product doesn't exist. Central examples in Chapter 1 (The AI-First Imperative) and the [AI-First vs AI-Enabled](../frameworks/ai-first-vs-ai-enabled.md) framework.
+Companies built from the ground up with AI at their core. If you remove the AI, the product doesn't exist. Central examples in Chapter 1 (The AI-First Imperative) and the [AI-First vs AI-Enabled](../frameworks/01-ai-first-vs-ai-enabled.md) framework.
 
 | Company | What the Book Discusses | Chapters / Frameworks |
 |---------|------------------------|----------------------|
@@ -82,8 +82,8 @@ Companies and incidents that illustrate AI governance, ethics, and risk manageme
 
 ## Related Frameworks
 
-- [AI-First vs AI-Enabled](../frameworks/ai-first-vs-ai-enabled.md) -- The foundational distinction for categorizing these companies
-- [Build vs Buy Calculus](../frameworks/build-vs-buy-calculus.md) -- Infrastructure decisions illustrated by Klarna, Morgan Stanley, and Bloomberg
-- [Data Flywheel](../frameworks/data-flywheel.md) -- The mechanism behind Tesla, Spotify, and Duolingo's data advantages
-- [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) -- Risk categories illustrated by the governance cases
-- [7 Failure Modes of Agents](../frameworks/7-failure-modes-of-agents.md) -- Agent failure patterns illustrated by Air Canada and Chevrolet
+- [AI-First vs AI-Enabled](../frameworks/01-ai-first-vs-ai-enabled.md) -- The foundational distinction for categorizing these companies
+- [Build vs Buy Calculus](../frameworks/04-build-vs-buy-calculus.md) -- Infrastructure decisions illustrated by Klarna, Morgan Stanley, and Bloomberg
+- [Data Flywheel](../frameworks/12-data-flywheel.md) -- The mechanism behind Tesla, Spotify, and Duolingo's data advantages
+- [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) -- Risk categories illustrated by the governance cases
+- [7 Failure Modes of Agents](../frameworks/10-seven-failure-modes-of-agents.md) -- Agent failure patterns illustrated by Air Canada and Chevrolet

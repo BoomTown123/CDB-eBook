@@ -4,7 +4,7 @@
 
 Use this checklist before evaluating any model. Gather your technical and business stakeholders, answer every question in sequence, and document your answers. Each section eliminates options -- by the end, your realistic choices should narrow to two or three candidates you can test against actual workloads. Revisit quarterly as the landscape shifts.
 
-*Derived from the [6 Questions Before Choosing a Model](../frameworks/6-questions-before-choosing-a-model.md) and [Foundation Models Landscape](../frameworks/foundation-models.md) frameworks -- Chapter 3.*
+*Derived from the [6 Questions Before Choosing a Model](../frameworks/07-six-questions-before-choosing-a-model.md) and [Foundation Models Landscape](../frameworks/06-foundation-models.md) frameworks -- Chapter 3.*
 
 ---
 

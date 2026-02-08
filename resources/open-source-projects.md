@@ -22,7 +22,7 @@ Application frameworks for building LLM-powered systems. Central to Chapter 4 (I
 
 ## Open-Weight Models
 
-Model families that can be self-hosted, fine-tuned, and deployed on your own infrastructure. Discussed in Chapter 3 (The AI Landscape) and the [Foundation Models](../frameworks/foundation-models.md) framework. European banks run open models for regulatory compliance; Shopify runs 40-60M daily inferences on fine-tuned open models.
+Model families that can be self-hosted, fine-tuned, and deployed on your own infrastructure. Discussed in Chapter 3 (The AI Landscape) and the [Foundation Models](../frameworks/06-foundation-models.md) framework. European banks run open models for regulatory compliance; Shopify runs 40-60M daily inferences on fine-tuned open models.
 
 | Project | Description | GitHub / Model Hub |
 |---------|-------------|-------------------|
@@ -36,7 +36,7 @@ Model families that can be self-hosted, fine-tuned, and deployed on your own inf
 
 ## Serving & Inference Tools
 
-Tools for running models efficiently in production. Addresses the infrastructure challenges discussed in Chapter 4 and the cost considerations in the [Foundation Models](../frameworks/foundation-models.md) framework.
+Tools for running models efficiently in production. Addresses the infrastructure challenges discussed in Chapter 4 and the cost considerations in the [Foundation Models](../frameworks/06-foundation-models.md) framework.
 
 | Project | Description | GitHub |
 |---------|-------------|--------|
@@ -66,7 +66,7 @@ Tools for evaluating model quality and comparing performance. The book emphasize
 
 ## Security & Safety
 
-Tools for protecting AI systems against the risks described in Chapter 11 and the [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) framework.
+Tools for protecting AI systems against the risks described in Chapter 11 and the [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) framework.
 
 | Project | Description | GitHub |
 |---------|-------------|--------|
@@ -81,7 +81,7 @@ Tools for protecting AI systems against the risks described in Chapter 11 and th
 
 ## Observability & Monitoring
 
-Tools for monitoring AI systems in production. Addresses the observability gap described in the [5 Infrastructure Mistakes](../frameworks/5-infrastructure-mistakes.md) framework -- only 51% of organizations can evaluate AI ROI.
+Tools for monitoring AI systems in production. Addresses the observability gap described in the [5 Infrastructure Mistakes](../frameworks/08-five-infrastructure-mistakes.md) framework -- only 51% of organizations can evaluate AI ROI.
 
 | Project | Description | GitHub |
 |---------|-------------|--------|
@@ -94,7 +94,7 @@ Tools for monitoring AI systems in production. Addresses the observability gap d
 
 ## Data & RAG Infrastructure
 
-Tools for building the data pipelines and RAG systems that power AI-first products. Supports the [Data Flywheel](../frameworks/data-flywheel.md) framework.
+Tools for building the data pipelines and RAG systems that power AI-first products. Supports the [Data Flywheel](../frameworks/12-data-flywheel.md) framework.
 
 | Project | Description | GitHub |
 |---------|-------------|--------|
@@ -108,8 +108,8 @@ Tools for building the data pipelines and RAG systems that power AI-first produc
 
 ## Related Frameworks
 
-- [Foundation Models Landscape](../frameworks/foundation-models.md) -- Context for open vs. closed model decisions
-- [Build vs Buy Calculus](../frameworks/build-vs-buy-calculus.md) -- When open source tools make sense vs. vendor solutions
-- [5 Infrastructure Mistakes](../frameworks/5-infrastructure-mistakes.md) -- Infrastructure patterns these tools help address
-- [7 AI Risks and Mitigations](../frameworks/7-ai-risks-and-mitigations.md) -- Risk categories the security tools help mitigate
-- [7 Failure Modes of Agents](../frameworks/7-failure-modes-of-agents.md) -- Agent failure patterns the observability tools help detect
+- [Foundation Models Landscape](../frameworks/06-foundation-models.md) -- Context for open vs. closed model decisions
+- [Build vs Buy Calculus](../frameworks/04-build-vs-buy-calculus.md) -- When open source tools make sense vs. vendor solutions
+- [5 Infrastructure Mistakes](../frameworks/08-five-infrastructure-mistakes.md) -- Infrastructure patterns these tools help address
+- [7 AI Risks and Mitigations](../frameworks/19-seven-ai-risks-and-mitigations.md) -- Risk categories the security tools help mitigate
+- [7 Failure Modes of Agents](../frameworks/10-seven-failure-modes-of-agents.md) -- Agent failure patterns the observability tools help detect

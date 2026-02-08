@@ -23,9 +23,9 @@ Scaling operations and growth with AI. Same patterns for internal and customer-f
 
 ## Key Concepts Applied
 
-- [Build vs Buy Calculus](../../frameworks/build-vs-buy-calculus.md) - Team and capability decisions
-- [Human AI Collaboration](../../frameworks/human-ai-collaboration.md) - Team structures and workflows
-- [Data Flywheel](../../frameworks/data-flywheel.md) - Building self-reinforcing data advantages
+- [Build vs Buy Calculus](../../frameworks/04-build-vs-buy-calculus.md) - Team and capability decisions
+- [Human AI Collaboration](../../frameworks/05-human-ai-collaboration.md) - Team structures and workflows
+- [Data Flywheel](../../frameworks/12-data-flywheel.md) - Building self-reinforcing data advantages
 - **Domain Autonomy** - Team ownership patterns
 - **Operations as APIs** - Making internal systems AI-accessible
 

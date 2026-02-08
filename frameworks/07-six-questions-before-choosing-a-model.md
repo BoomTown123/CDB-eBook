@@ -104,10 +104,10 @@ Before any model evaluation, gather your technical and business stakeholders and
 
 ## Related Frameworks
 
-- [Foundation Models Landscape](foundation-models.md) --- understanding the models you are choosing between
-- [Build vs. Buy Calculus](build-vs-buy-calculus.md) --- related decision framework for infrastructure
-- [5 Infrastructure Mistakes](5-infrastructure-mistakes.md) --- what goes wrong after you choose
-- [AI Governance Framework](ai-governance-framework.md) --- governance considerations that affect model selection
+- [Foundation Models Landscape](06-foundation-models.md) --- understanding the models you are choosing between
+- [Build vs. Buy Calculus](04-build-vs-buy-calculus.md) --- related decision framework for infrastructure
+- [5 Infrastructure Mistakes](08-five-infrastructure-mistakes.md) --- what goes wrong after you choose
+- [AI Governance Framework](18-ai-governance-framework.md) --- governance considerations that affect model selection
 
 ## Deep Dive
 

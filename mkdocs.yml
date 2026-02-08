@@ -240,26 +240,26 @@ nav:
         - "Polyglot Persistence Stages": book/appendix/02-frameworks/02-polyglot-persistence-stages.md
   - Frameworks:
     - frameworks/README.md
-    - "10 Principles of AI-First": frameworks/10-principles-of-ai-first.md
-    - "AI-First vs AI-Enabled": frameworks/ai-first-vs-ai-enabled.md
-    - "7 Mental Models of AI-First": frameworks/7-mental-models-of-ai-first.md
-    - "Build vs Buy Calculus": frameworks/build-vs-buy-calculus.md
-    - "Foundation Models": frameworks/foundation-models.md
-    - "6 Questions Before Choosing a Model": frameworks/6-questions-before-choosing-a-model.md
-    - "Probabilistic AI": frameworks/probabilistic-ai.md
-    - "5 Infrastructure Mistakes": frameworks/5-infrastructure-mistakes.md
-    - "8 Patterns for AI Coding": frameworks/8-patterns-for-ai-coding.md
-    - "Human-AI Collaboration": frameworks/human-ai-collaboration.md
-    - "7 Failure Modes of Agents": frameworks/7-failure-modes-of-agents.md
-    - "Data Flywheel": frameworks/data-flywheel.md
-    - "Data Moats": frameworks/data-moats.md
-    - "6 Data Strategy Mistakes": frameworks/6-data-strategy-mistakes.md
-    - "Automation vs Augmentation": frameworks/automation-vs-augmentation.md
-    - "8 GTM Mistakes with AI": frameworks/8-gtm-mistakes-with-ai.md
-    - "90-Day AI Fluency Program": frameworks/90-day-ai-fluency-program.md
-    - "Permission Model Framework": frameworks/permission-model-framework.md
-    - "AI Governance Framework": frameworks/ai-governance-framework.md
-    - "7 AI Risks and Mitigations": frameworks/7-ai-risks-and-mitigations.md
+    - "10 Principles of AI-First": frameworks/20-ten-principles-of-ai-first.md
+    - "AI-First vs AI-Enabled": frameworks/01-ai-first-vs-ai-enabled.md
+    - "7 Mental Models of AI-First": frameworks/02-seven-mental-models-of-ai-first.md
+    - "Build vs Buy Calculus": frameworks/04-build-vs-buy-calculus.md
+    - "Foundation Models": frameworks/06-foundation-models.md
+    - "6 Questions Before Choosing a Model": frameworks/07-six-questions-before-choosing-a-model.md
+    - "Probabilistic AI": frameworks/03-probabilistic-ai.md
+    - "5 Infrastructure Mistakes": frameworks/08-five-infrastructure-mistakes.md
+    - "8 Patterns for AI Coding": frameworks/09-eight-patterns-for-ai-coding.md
+    - "Human-AI Collaboration": frameworks/05-human-ai-collaboration.md
+    - "7 Failure Modes of Agents": frameworks/10-seven-failure-modes-of-agents.md
+    - "Data Flywheel": frameworks/12-data-flywheel.md
+    - "Data Moats": frameworks/13-data-moats.md
+    - "6 Data Strategy Mistakes": frameworks/14-six-data-strategy-mistakes.md
+    - "Automation vs Augmentation": frameworks/15-automation-vs-augmentation.md
+    - "8 GTM Mistakes with AI": frameworks/16-eight-gtm-mistakes-with-ai.md
+    - "90-Day AI Fluency Program": frameworks/11-ninety-day-ai-fluency-program.md
+    - "Permission Model Framework": frameworks/17-permission-model-framework.md
+    - "AI Governance Framework": frameworks/18-ai-governance-framework.md
+    - "7 AI Risks and Mitigations": frameworks/19-seven-ai-risks-and-mitigations.md
   - Guides:
     - guides/README.md
     - "AI Coding Workflow": guides/ai-coding-workflow.md

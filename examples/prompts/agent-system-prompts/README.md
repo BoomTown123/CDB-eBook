@@ -54,5 +54,5 @@ The prompts are starting points. Every production agent needs customization for 
 
 - [Coding Prompts](../coding-prompts/) -- prompts for development tasks
 - [Evaluation Prompts](../evaluation-prompts/) -- prompts for evaluating agent output quality
-- [7 Failure Modes of Agents Framework](../../../frameworks/7-failure-modes-of-agents.md) -- what can go wrong
-- [Permission Model Framework](../../../frameworks/permission-model-framework.md) -- setting autonomy levels
+- [7 Failure Modes of Agents Framework](../../../frameworks/10-seven-failure-modes-of-agents.md) -- what can go wrong
+- [Permission Model Framework](../../../frameworks/17-permission-model-framework.md) -- setting autonomy levels

@@ -181,4 +181,4 @@ This prompt implements the **clarify-confirm-act** pattern from [Agent Design Pa
 - **Confirm:** State the action and get explicit approval before executing
 - **Act:** Perform the action and report the result
 
-The escalation rules follow the [Permission Model Framework](../../../frameworks/permission-model-framework.md) -- autonomy matches reversibility. Refunds under the threshold are reversible (agent handles them). Refunds above the threshold, security issues, and legal concerns are high-impact and require human judgment.
+The escalation rules follow the [Permission Model Framework](../../../frameworks/17-permission-model-framework.md) -- autonomy matches reversibility. Refunds under the threshold are reversible (agent handles them). Refunds above the threshold, security issues, and legal concerns are high-impact and require human judgment.

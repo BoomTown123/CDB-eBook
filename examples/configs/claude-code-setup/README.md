@@ -1,6 +1,6 @@
 # Claude Code Setup
 
-> How to set up Claude Code for your project, including the CLAUDE.md memory file, custom skills, and hook configurations. Based on [Chapter 5: Building with AI](../../../book/part-2-building/05-building-with-ai/README.md) and the [8 Patterns for Effective AI Coding](../../../frameworks/8-patterns-for-ai-coding.md).
+> How to set up Claude Code for your project, including the CLAUDE.md memory file, custom skills, and hook configurations. Based on [Chapter 5: Building with AI](../../../book/part-2-building/05-building-with-ai/README.md) and the [8 Patterns for Effective AI Coding](../../../frameworks/09-eight-patterns-for-ai-coding.md).
 
 ## What's in This Example
 
@@ -84,5 +84,5 @@ Project-level settings are the most important. They ensure every developer (and 
 
 - [Coding Prompts](../../prompts/coding-prompts/) -- prompts to use within Claude Code sessions
 - [CI AI Review](../ci-ai-review/) -- automate code review in your CI pipeline
-- [8 Patterns for AI Coding](../../../frameworks/8-patterns-for-ai-coding.md) -- the framework these configurations implement
+- [8 Patterns for AI Coding](../../../frameworks/09-eight-patterns-for-ai-coding.md) -- the framework these configurations implement
 - [Skills, Commands, Agents, SDK](../../../book/part-2-building/05-building-with-ai/03-skills-commands-agents-sdk.md) -- vocabulary for working with Claude Code

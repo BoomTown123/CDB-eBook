@@ -116,11 +116,11 @@ For each workflow where you are considering human-AI collaboration, first test i
 
 ## Related Frameworks
 
-- [Automation vs Augmentation](automation-vs-augmentation.md) -- The operational framework for deciding where AI augments versus replaces
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The thinking models that underpin effective collaboration design
-- [Permission Model Framework](permission-model-framework.md) -- How trust levels map to collaboration patterns
-- [90-Day AI Fluency Program](90-day-ai-fluency-program.md) -- Training teams to collaborate effectively with AI
-- [8 Patterns for AI Coding](8-patterns-for-ai-coding.md) -- Specific collaboration patterns for software development
+- [Automation vs Augmentation](15-automation-vs-augmentation.md) -- The operational framework for deciding where AI augments versus replaces
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The thinking models that underpin effective collaboration design
+- [Permission Model Framework](17-permission-model-framework.md) -- How trust levels map to collaboration patterns
+- [90-Day AI Fluency Program](11-ninety-day-ai-fluency-program.md) -- Training teams to collaborate effectively with AI
+- [8 Patterns for AI Coding](09-eight-patterns-for-ai-coding.md) -- Specific collaboration patterns for software development
 
 ## Deep Dive
 

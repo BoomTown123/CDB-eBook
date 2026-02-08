@@ -95,12 +95,12 @@ Ask three questions for every AI capability decision: Is this capability core to
 
 ## Related Frameworks
 
-- [AI-First vs AI-Enabled](ai-first-vs-ai-enabled.md) -- The foundational distinction that shapes the build vs buy decision
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- Mental Model #6 (Build vs Buy Inversion) derives from this framework
-- [Data Flywheel](data-flywheel.md) -- How the Boost path generates compounding data advantages
-- [Data Moats](data-moats.md) -- Why the Build path creates defensible positions
-- [Foundation Models](foundation-models.md) -- The landscape of models underlying all three paths
-- [10 Principles of AI-First](10-principles-of-ai-first.md) -- Principles 2 and 6 address routing strategy and domain ownership
+- [AI-First vs AI-Enabled](01-ai-first-vs-ai-enabled.md) -- The foundational distinction that shapes the build vs buy decision
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- Mental Model #6 (Build vs Buy Inversion) derives from this framework
+- [Data Flywheel](12-data-flywheel.md) -- How the Boost path generates compounding data advantages
+- [Data Moats](13-data-moats.md) -- Why the Build path creates defensible positions
+- [Foundation Models](06-foundation-models.md) -- The landscape of models underlying all three paths
+- [10 Principles of AI-First](20-ten-principles-of-ai-first.md) -- Principles 2 and 6 address routing strategy and domain ownership
 
 ## Deep Dive
 

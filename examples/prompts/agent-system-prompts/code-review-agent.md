@@ -201,7 +201,7 @@ JS/TS SECURITY CHECKS:
 
 ## Design Decisions
 
-This agent applies **Pattern 8: Review Ruthlessly** from the [8 Patterns framework](../../../frameworks/8-patterns-for-ai-coding.md). Key design choices:
+This agent applies **Pattern 8: Review Ruthlessly** from the [8 Patterns framework](../../../frameworks/09-eight-patterns-for-ai-coding.md). Key design choices:
 
 - **15-comment maximum** prevents review fatigue. Developers ignore reviews with 40 comments. Prioritized reviews with 10-15 comments get addressed.
 - **No style nitpicking** keeps the signal-to-noise ratio high. Linters handle formatting. The agent handles logic.

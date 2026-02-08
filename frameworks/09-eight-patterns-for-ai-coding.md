@@ -138,10 +138,10 @@ Make these patterns part of your team's developer training and embed them into c
 
 ## Related Frameworks
 
-- [7 Mental Models of AI-First](7-mental-models-of-ai-first.md) -- The thinking frameworks that inform these coding patterns
-- [Human-AI Collaboration](human-ai-collaboration.md) -- The broader collaboration model these patterns implement
-- [7 Failure Modes of Agents](7-failure-modes-of-agents.md) -- What goes wrong when agents operate without guardrails
-- [Probabilistic AI](probabilistic-ai.md) -- Why AI outputs require the review rigor in Pattern 8
+- [7 Mental Models of AI-First](02-seven-mental-models-of-ai-first.md) -- The thinking frameworks that inform these coding patterns
+- [Human-AI Collaboration](05-human-ai-collaboration.md) -- The broader collaboration model these patterns implement
+- [7 Failure Modes of Agents](10-seven-failure-modes-of-agents.md) -- What goes wrong when agents operate without guardrails
+- [Probabilistic AI](03-probabilistic-ai.md) -- Why AI outputs require the review rigor in Pattern 8
 
 ## Deep Dive
 
