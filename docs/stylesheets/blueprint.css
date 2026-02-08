@@ -1206,10 +1206,15 @@ body.bp-right-collapsed .bp-toggle-right svg {
   }
 }
 
-/* Light mode */
+/* Light mode — dark contrasting pill */
 [data-md-color-scheme="default"] .bp-sidebar-toggle {
-  background: var(--bp-cyan);
+  background: #0f1529;
   color: #ffffff;
+  box-shadow: 0 0 8px rgba(15, 21, 41, 0.3);
+}
+
+[data-md-color-scheme="default"] .bp-sidebar-toggle:hover {
+  box-shadow: 0 0 16px rgba(15, 21, 41, 0.5);
 }
 
 

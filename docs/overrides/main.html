@@ -23,12 +23,12 @@
 
 {% block content %}
   <!-- Sidebar toggle buttons -->
-  <button class="bp-sidebar-toggle bp-toggle-left" id="bp-toggle-left" title="Toggle navigation" aria-label="Toggle navigation">
+  <button class="bp-sidebar-toggle bp-toggle-left" id="bp-toggle-left" title="Toggle navigation  [" aria-label="Toggle navigation">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="15 18 9 12 15 6"></polyline>
     </svg>
   </button>
-  <button class="bp-sidebar-toggle bp-toggle-right" id="bp-toggle-right" title="Toggle table of contents" aria-label="Toggle table of contents">
+  <button class="bp-sidebar-toggle bp-toggle-right" id="bp-toggle-right" title="Toggle table of contents  ]" aria-label="Toggle table of contents">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
@@ -49,7 +49,8 @@
         localStorage.setItem('bp-right-collapsed', body.classList.contains('bp-right-collapsed') ? '1' : '0');
       }
 
-      // Restore state
+      // FIX #2: Default is OPEN — only collapse if user explicitly chose it
+      // (no restore on first visit; sidebars start expanded)
       if (localStorage.getItem('bp-left-collapsed') === '1') body.classList.add('bp-left-collapsed');
       if (localStorage.getItem('bp-right-collapsed') === '1') body.classList.add('bp-right-collapsed');
 
@@ -95,7 +96,7 @@
     <span class="bp-cta-label">Found this useful?</span>
     <div class="bp-cta-actions">
       <a href="https://github.com/saurav-yirifi/blueprint-ai-first-company"
-         target="_blank" rel="noopener" class="bp-cta-action">
+         target="_blank" rel="noopener" class="bp-cta-action" id="bp-star-btn">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         Star on GitHub
       </a>
@@ -113,34 +114,42 @@
   <!-- Giscus Comments -->
   <h2 id="__comments">Discussion</h2>
 
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="saurav-yirifi/blueprint-ai-first-company"
-    data-repo-id="R_kgDORKaefw"
-    data-category="General"
-    data-category-id="DIC_kwDORKaef84C2Dbx"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="https://aiblueprint.sauravbhatia.com/stylesheets/giscus-dark.css"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
+  <script>
+    // FIX #4: Set Giscus theme dynamically BEFORE it loads
+    (function() {
+      var scheme = document.body.getAttribute('data-md-color-scheme');
+      var base = 'https://aiblueprint.sauravbhatia.com/stylesheets/';
+      var theme = scheme === 'default' ? base + 'giscus-light.css' : base + 'giscus-dark.css';
+
+      var s = document.createElement('script');
+      s.src = 'https://giscus.app/client.js';
+      s.setAttribute('data-repo', 'saurav-yirifi/blueprint-ai-first-company');
+      s.setAttribute('data-repo-id', 'R_kgDORKaefw');
+      s.setAttribute('data-category', 'General');
+      s.setAttribute('data-category-id', 'DIC_kwDORKaef84C2Dbx');
+      s.setAttribute('data-mapping', 'pathname');
+      s.setAttribute('data-strict', '0');
+      s.setAttribute('data-reactions-enabled', '1');
+      s.setAttribute('data-emit-metadata', '0');
+      s.setAttribute('data-input-position', 'top');
+      s.setAttribute('data-theme', theme);
+      s.setAttribute('data-lang', 'en');
+      s.setAttribute('data-loading', 'lazy');
+      s.setAttribute('crossorigin', 'anonymous');
+      s.async = true;
+      document.currentScript.parentElement.appendChild(s);
+    })();
   </script>
 
   <script>
-    // Sync Giscus theme with Material's dark/light palette
+    // Sync Giscus theme on palette toggle
     (function() {
       function getGiscusTheme() {
         var scheme = document.body.getAttribute('data-md-color-scheme');
-        var base = window.location.origin + '/stylesheets/';
+        var base = 'https://aiblueprint.sauravbhatia.com/stylesheets/';
         return scheme === 'default' ? base + 'giscus-light.css' : base + 'giscus-dark.css';
       }
 
-      // Watch for palette changes
       var observer = new MutationObserver(function(mutations) {
         mutations.forEach(function(m) {
           if (m.attributeName === 'data-md-color-scheme') {
