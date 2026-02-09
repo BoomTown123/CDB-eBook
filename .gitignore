@@ -1,4 +1,5 @@
 site/
+.claude/
 
 # Content copied into docs/ at build time — do not commit
 docs/book/
