@@ -4,7 +4,7 @@
 
 **Frameworks, code, and the complete AI writing system behind the book**
 
-[![Read Online](https://img.shields.io/badge/Read_Online-Live_Site-38bdf8?style=for-the-badge)](https://aiblueprint.sauravbhatia.com/)
+[![Read Online](https://img.shields.io/badge/Read_Online-Live_Site-38bdf8?style=for-the-badge)](https://aiblueprint.saurav.ai/)
 &nbsp;&nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/saurav-yirifi/blueprint-ai-first-company?style=social)](https://github.com/saurav-yirifi/blueprint-ai-first-company/stargazers)
 
