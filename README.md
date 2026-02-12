@@ -1,6 +1,6 @@
 <div align="center">
 
-# BLUEPRINT FOR AN AI-FIRST COMPANY
+Customer Decisioning Blueprint
 
 **Frameworks, code, and the complete AI writing system behind the book**
 
